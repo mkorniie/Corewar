@@ -195,18 +195,6 @@ void	ft_addcmdline(char **split, char *line, t_label *curr_label)
     ft_addarguments(current_command);
 }
 
-//int    ft_iscommand(char *line, int i)
-//{
-//    char tmp;
-//
-//    tmp = line[i];
-//    line[i] = '\0';
-//    while ()ft_command_index()
-//    {}
-//    return (TRUE);
-//    return (FALSE);
-//}
-
 void	ft_addcommands(char *line)
 {
 	char    **split;

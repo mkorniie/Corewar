@@ -13,7 +13,7 @@ entry:
 	live	%42
 	fork	%:avdefgeni
 
-ardeftgt:
+ardeftgt: #here
 
 ardefgeni:
 	st 		r1, 6
@@ -33,9 +33,9 @@ ardefinit:
 	ld		%-186, r5
 
 ardefwrite:
-ardefl1:
+ardefl1: #target
 	live	%295423
-	sti		r4, %:ardeftgt, r2
+	sti		r4, %:ardeftgt, r2 #target
 	add		r2, r3, r2
 	sti		r4, %:ardeftgt, r2
 	add		r2, r3, r2

@@ -50,8 +50,6 @@ t_label * ft_addlabel(char *name)
 	len = ft_strlen(name);
 	if (name != NULL)
 		name[len - 1] = '\0';
-	//count the g_byte counter ples
-//	new->start_byte = g_byte_counter;
 	ft_addtotail(new);
 	return (new);
 }

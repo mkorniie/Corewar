@@ -38,8 +38,11 @@ t_label *ft_find_label(char *label_name)
     t_label *tmp;
 
     tmp = g_file.head;
-    if (ft_strequ(label_name, "avdeftgt"))
-        ft_putchar('\n');
+//    if (ft_strequ(label_name, "avdeftgt"))
+//        ft_putchar('\n');
+
+    printf("ADDR %p ----- %s\n", tmp, tmp);
+
     while (tmp)
     {
         if (ft_strequ(label_name, tmp->label_name))
@@ -64,6 +67,8 @@ int     ft_find_label_dst(t_label *start_label, t_comline *cmd, char *lab_name, 
     while (lbl_tmp)
     {
         cmd_tmp = ((lbl_tmp == start_label && cmd != NULL) ? cmd : lbl_tmp->commands_head);
+        if ((lbl_tmp == target_label) && (lbl_tmp->commands_head == NULL))
+            return (res);
         while (cmd_tmp)
         {
             if (cmd_tmp == target)

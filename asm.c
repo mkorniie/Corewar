@@ -194,8 +194,6 @@ int    ft_findfilesize(void)
     lbl_tmp = g_file.head;
     while (lbl_tmp)
     {
-        if (ft_strequ(lbl_tmp->label_name, "avdeftgt"))
-            ft_putchar("\n");
         cmd_tmp = lbl_tmp->commands_head;
         while (cmd_tmp)
         {
@@ -206,6 +204,10 @@ int    ft_findfilesize(void)
     }
     return (res);
 }
+
+
+// It will read the assembly’s code processed from the file .s given as argument, and write the resulting bytecode in a file named same as the argument by replacing the extension .s by .cor.
+// In case of an error, you will need to display a relevant message on the standard error output and not create the .cor file.
 
 int		main(int argc, char **argv)
 {

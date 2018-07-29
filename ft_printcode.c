@@ -50,6 +50,7 @@ void    ft_printargument(t_arg *argument, int label_size)
 {
     int size;
 
+    size = -1;
     if (argument->arg_type == T_REG)
         size = 1;
     else if (argument->arg_type == T_IND)

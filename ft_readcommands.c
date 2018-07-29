@@ -39,6 +39,7 @@ int     ft_get_cmd_byte(int op_index, char *line, int has_label)
         ft_printf("Wrong arguments number! Booooo!\n");
         ft_exit();
     }
+    return (0);
 }
 
 void    ft_addarguments(t_comline *current_command)
@@ -178,7 +179,7 @@ void    ft_right_seps(char *line, t_op command)
     }
 }
 
-void	ft_addcmdline(char **split, char *line, t_label *curr_label)
+void	ft_addcmdline(char **split, char *line)
 {
     int         cmd_op_index;
     t_comline   *current_command;
@@ -214,7 +215,7 @@ void	ft_addcommands(char *line)
         //delete g_label?
         g_curr_label = curr_label;
         if (ft_chararrlen(split) > 1)
-    		ft_addcmdline(split, line, curr_label);
+    		ft_addcmdline(split, line);
 	}
 	else
 	{

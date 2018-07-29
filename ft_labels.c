@@ -41,7 +41,7 @@ t_label *ft_find_label(char *label_name)
 //    if (ft_strequ(label_name, "avdeftgt"))
 //        ft_putchar('\n');
 
-    printf("ADDR %p ----- %s\n", tmp, tmp);
+    // printf("ADDR %p ----- %s\n", tmp, tmp);
 
     while (tmp)
     {
@@ -51,6 +51,7 @@ t_label *ft_find_label(char *label_name)
     }
     ft_printf("Label '%s' doesn't exist!\n", label_name);
     ft_exit();
+    return (NULL);
 }
 
 int     ft_find_label_dst(t_label *start_label, t_comline *cmd, char *lab_name, t_comline *target)

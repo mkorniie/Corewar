@@ -126,7 +126,6 @@ int		ft_islabel(char *first_chunk)
 {
     int i;
     int last_char;
-    char *tmp;
 
     if (first_chunk == NULL)
         return (0);
@@ -155,6 +154,7 @@ int     ft_find_argtype(char *arg_line)
         return(T_IND);
     ft_printf("No such arg type: %s!\n", arg_line);
     ft_exit();
+    return (1);
 }
 
 int     ft_arg_byte(char **no_sep_split, int op_index, int start)

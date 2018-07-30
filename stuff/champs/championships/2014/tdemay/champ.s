@@ -109,7 +109,6 @@ mov_init:
 	ld		%4, r8
 	ld		%0, r4
 	ld		%1111638594, r6
-	# zjmp	%:mov_init
 
 mov:
 	live	%99

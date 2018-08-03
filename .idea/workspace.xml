@@ -13,18 +13,36 @@
   <component name="ChangeListManager">
     <list default="true" id="f19323ca-284c-4635-8ff7-734c73362550" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/asm.c" afterPath="$PROJECT_DIR$/asm.c" />
+      <change beforePath="$PROJECT_DIR$/asm.h" afterPath="$PROJECT_DIR$/asm.h" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/asm.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/asm.c.o" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_argvalidate.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_argvalidate.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_file.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_file.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_labellist.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_labellist.c.o" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_labels.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_labels.c.o" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_printcode.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_printcode.c.o" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_readcommands.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_readcommands.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_readname.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_readname.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_write.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/ft_write.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_exit.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_exit.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_mod.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_mod.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CoreWar" afterPath="$PROJECT_DIR$/cmake-build-debug/CoreWar" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/othername.cor" afterPath="$PROJECT_DIR$/cmake-build-debug/othername.cor" />
-      <change beforePath="$PROJECT_DIR$/diff/diff_my" afterPath="$PROJECT_DIR$/diff/diff_my" />
-      <change beforePath="$PROJECT_DIR$/diff/diff_orig" afterPath="$PROJECT_DIR$/diff/diff_orig" />
+      <change beforePath="$PROJECT_DIR$/ft_file.c" afterPath="$PROJECT_DIR$/ft_file.c" />
+      <change beforePath="$PROJECT_DIR$/ft_labels.c" afterPath="$PROJECT_DIR$/ft_labels.c" />
+      <change beforePath="$PROJECT_DIR$/ft_readcommands.c" afterPath="$PROJECT_DIR$/ft_readcommands.c" />
+      <change beforePath="$PROJECT_DIR$/ft_write.c" afterPath="$PROJECT_DIR$/ft_write.c" />
       <change beforePath="$PROJECT_DIR$/log" afterPath="$PROJECT_DIR$/log" />
-      <change beforePath="$PROJECT_DIR$/stuff/champs/championships/2014/tdemay/champ.s" afterPath="$PROJECT_DIR$/stuff/champs/championships/2014/tdemay/champ.s" />
-      <change beforePath="$PROJECT_DIR$/stuff/champs/championships/2017/adenis/Explosive_Kitty.s" afterPath="$PROJECT_DIR$/stuff/champs/championships/2017/adenis/Explosive_Kitty.s" />
-      <change beforePath="$PROJECT_DIR$/stuff/champs/championships/2017/jaustry/mise_a_jour_windows95.s" afterPath="$PROJECT_DIR$/stuff/champs/championships/2017/jaustry/mise_a_jour_windows95.s" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,71 +67,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ft_readcommands.c" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ft_readcommands.c" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ft_readcommands.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2925">
-                  <caret line="195" column="1" lean-forward="false" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
+                <state relative-caret-position="936">
+                  <caret line="212" column="5" lean-forward="false" selection-start-line="212" selection-start-column="5" selection-end-line="212" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ft_labellist.c" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ft_labellist.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="765">
-                  <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="asm.c" pinned="false" current-in-tab="true">
+          <file leaf-file-name="asm.c" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/asm.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="307">
-                  <caret line="178" column="13" lean-forward="false" selection-start-line="178" selection-start-column="13" selection-end-line="178" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ft_strequ.c" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/libft/ft_strequ.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ft_putchar.c" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/libft/ft_putchar.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ft_labels.c" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ft_labels.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1230">
-                  <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ft_strlen.c" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/libft/ft_strlen.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+                <state relative-caret-position="3221">
+                  <caret line="236" column="10" lean-forward="false" selection-start-line="236" selection-start-column="10" selection-end-line="236" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -129,36 +97,26 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ft_readname.c" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ft_readname.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1725">
-                  <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <splitter split-orientation="horizontal" split-proportion="0.48010612">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="asm.h" pinned="false" current-in-tab="false">
+              <file leaf-file-name="asm.h" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/asm.h">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="1185">
-                      <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+                    <state relative-caret-position="147">
+                      <caret line="89" column="34" lean-forward="false" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="34" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="op.h" pinned="false" current-in-tab="true">
+              <file leaf-file-name="op.h" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/op.h">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="472">
+                    <state relative-caret-position="525">
                       <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
                       <folding />
                     </state>
@@ -202,7 +160,7 @@
               <file leaf-file-name="mise_a_jour_windows95.s" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/stuff/champs/championships/2017/jaustry/mise_a_jour_windows95.s">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="1680">
+                    <state relative-caret-position="547">
                       <caret line="112" column="34" lean-forward="false" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
                       <folding />
                     </state>
@@ -264,26 +222,26 @@
         <option value="$PROJECT_DIR$/ft_readname.c" />
         <option value="$PROJECT_DIR$/zork.s" />
         <option value="$PROJECT_DIR$/stuff/Kittystrophic.s" />
-        <option value="$PROJECT_DIR$/ft_file.c" />
-        <option value="$PROJECT_DIR$/asm.h" />
         <option value="$PROJECT_DIR$/ft_printcode.c" />
         <option value="$PROJECT_DIR$/stuff/jumper.s" />
         <option value="$PROJECT_DIR$/ft_argvalidate.c" />
-        <option value="$PROJECT_DIR$/ft_write.c" />
         <option value="$PROJECT_DIR$/stuff/champs/barriere.s" />
         <option value="$PROJECT_DIR$/stuff/champs/Death.s" />
         <option value="$PROJECT_DIR$/stuff/champs/examples/bee_gees.s" />
         <option value="$PROJECT_DIR$/stuff/champs/examples/fluttershy.s" />
-        <option value="$PROJECT_DIR$/ft_labels.c" />
         <option value="$PROJECT_DIR$/ft_labellist.c" />
-        <option value="$PROJECT_DIR$/ft_readcommands.c" />
         <option value="$PROJECT_DIR$/stuff/champs/championships/2014/brandazz/Rainbow_dash.s" />
-        <option value="$PROJECT_DIR$/asm.c" />
         <option value="$PROJECT_DIR$/stuff/champs/championships/2014/tdemay/champ.s" />
         <option value="$PROJECT_DIR$/op.h" />
         <option value="$PROJECT_DIR$/stuff/champs/championships/2017/adenis/Explosive_Kitty.s" />
         <option value="$PROJECT_DIR$/stuff/champs/championships/2017/jaustry/mise_a_jour_windows95.s" />
         <option value="$PROJECT_DIR$/stuff/champs/championships/2017/nolivier/run_Kitty_RUN.s" />
+        <option value="$PROJECT_DIR$/ft_labels.c" />
+        <option value="$PROJECT_DIR$/ft_write.c" />
+        <option value="$PROJECT_DIR$/asm.h" />
+        <option value="$PROJECT_DIR$/asm.c" />
+        <option value="$PROJECT_DIR$/ft_file.c" />
+        <option value="$PROJECT_DIR$/ft_readcommands.c" />
       </list>
     </option>
   </component>
@@ -444,12 +402,14 @@
       <workItem from="1532518256921" duration="9840000" />
       <workItem from="1532536225408" duration="68000" />
       <workItem from="1532698357888" duration="3065000" />
-      <workItem from="1532952266589" duration="3305000" />
+      <workItem from="1532952266589" duration="3506000" />
+      <workItem from="1533299800937" duration="2275000" />
+      <workItem from="1533308502829" duration="205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140914000" />
+    <option name="totallyTimeSpent" value="143595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="23" width="2539" height="1336" extended-state="0" />
@@ -457,16 +417,16 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12564002" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30933544" sideWeight="0.5015649" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30933544" sideWeight="0.49843505" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30933544" sideWeight="0.49843505" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3386076" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -509,6 +469,11 @@
           <line>32</line>
           <option name="timeStamp" value="142" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ft_file.c</url>
+          <line>26</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -520,7 +485,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="149" />
+      <option name="time" value="150" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
@@ -733,25 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ft_file.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stuff/champs/barriere.s">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ft_write.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="109" column="37" lean-forward="false" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,58 +728,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ft_readname.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stuff/Kittystrophic.s">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="801">
           <caret line="104" column="0" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/ft_putchar.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/ft_strequ.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/libft.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libft/ft_strlen.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ft_labels.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,22 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ft_readcommands.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2925">
-          <caret line="195" column="1" lean-forward="false" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ft_labellist.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stuff/champs/championships/2014/brandazz/Rainbow_dash.s">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -877,18 +763,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/asm.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stuff/champs/championships/2014/clafleur/big_feet.s">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
           <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stuff/champs/championships/2014/tdemay/champ.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="103" column="20" lean-forward="true" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stuff/champs/championships/2017/adenis/Explosive_Kitty.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1087">
+          <caret line="143" column="9" lean-forward="false" selection-start-line="143" selection-start-column="9" selection-end-line="143" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/ft_strequ.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ft_labels.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/ft_strlen.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/ft_putchar.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ft_readname.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="996">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libft/libft.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ft_write.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ft_file.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asm.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3221">
+          <caret line="236" column="10" lean-forward="false" selection-start-line="236" selection-start-column="10" selection-end-line="236" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asm.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="89" column="34" lean-forward="false" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/op.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -909,42 +885,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stuff/champs/championships/2014/tdemay/champ.s">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="103" column="20" lean-forward="true" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stuff/champs/championships/2017/adenis/Explosive_Kitty.s">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1087">
-          <caret line="143" column="9" lean-forward="false" selection-start-line="143" selection-start-column="9" selection-end-line="143" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/ft_utils_to_split.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asm.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="178" column="13" lean-forward="false" selection-start-line="178" selection-start-column="13" selection-end-line="178" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/op.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -959,8 +903,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stuff/champs/championships/2017/jaustry/mise_a_jour_windows95.s">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
+        <state relative-caret-position="547">
           <caret line="112" column="34" lean-forward="false" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ft_labellist.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ft_readcommands.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="212" column="5" lean-forward="false" selection-start-line="212" selection-start-column="5" selection-end-line="212" selection-end-column="5" />
           <folding />
         </state>
       </provider>

@@ -1,3 +1,19 @@
+
+TO FIX:
+
+1) Слитное написание Label и команды
+2) Что если label уже существует?
+3) ОШИБКИ:
+	- в STD_ERR
+	- По стандарту?
+	- ЗАПИСАТЬ ФИНАЛЬНЫЙ ВЫВОД: успешно записан в файл...
+	- убрать мои printf
+4) Лики
+5) Норма
+6) Бонусы
+
+
+_______________________________
 zork.s - checked
 Backward.s - checked
 Kittystrophic.s - checked
@@ -68,3 +84,5 @@ mise_a_jour_windows95.s - checked
 run_Kitty_RUN.s - same stuff with command and label written together; checked!
 overwatch.s - checked
 Douceur_power.s - checked!
+
+_______________________

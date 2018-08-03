@@ -12,36 +12,11 @@
 
 #include "asm.h"
 
-//int     ft_count_lab_distance()
-//{
-//    t_label *lbl_tmp;
-//    t_comline *cmd_tmp;
-//    int res;
-//
-//    res = 0;
-//    lbl_tmp = g_file.head;
-//    while (lbl_tmp)
-//    {
-//        cmd_tmp = lbl_tmp->commands_head;
-//        while (cmd_tmp)
-//        {
-//
-//            cmd_tmp = cmd_tmp->next;
-//        }
-//        lbl_tmp = lbl_tmp->next;
-//    }
-//    return (res);
-//}
-
 t_label *ft_find_label(char *label_name)
 {
     t_label *tmp;
 
     tmp = g_file.head;
-//    if (ft_strequ(label_name, "avdeftgt"))
-//        ft_putchar('\n');
-
-    // printf("ADDR %p ----- %s\n", tmp, tmp);
 
     while (tmp)
     {

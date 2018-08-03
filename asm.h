@@ -87,6 +87,7 @@ typedef struct			s_label
 
 typedef struct			s_file
 {
+    char                *file_name;
 	char				*content;
 	t_declare			*name;
 	t_declare			*comment;

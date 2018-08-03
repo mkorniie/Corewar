@@ -29,7 +29,6 @@ void	ft_divide_in_octets(int number_to_print)
 	int power;
 
 	len = ft_hexlen(number_to_print);
-	printf("Hexlen is %d\n", len);
 	octet = 0x0;
 	zeroes_to_add = (ft_count_zeroes(len) / 2) + 1;
 	while ((--zeroes_to_add) > 0)
@@ -40,9 +39,7 @@ void	ft_divide_in_octets(int number_to_print)
 		power = ft_pow(16, len);
 		octet = number_to_print / power;
 		ft_write_to_file(octet);
-		printf("Octet is %x; ", octet);
 		number_to_print -= octet * power;
-		printf("now number_to_print is %x\n", number_to_print);
 	}
 }
 

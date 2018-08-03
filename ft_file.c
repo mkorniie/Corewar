@@ -12,6 +12,21 @@
 
 #include "asm.h"
 
+char	*ft_outputname(void)
+{
+	unsigned int name_len;
+	char *new_name;
+
+	name_len = ft_strlen(g_file.file_name);
+	new_name = (char*)malloc(sizeof(char) * (name_len + 2 + 1));
+	new_name[name_len - 1] = 'c';
+	new_name[name_len] = 'o';
+	new_name[name_len + 1] = 'r';
+	new_name[name_len + 2] = '\0';
+	ft_strncpy(new_name, g_file.file_name, name_len - 1);
+	return (new_name);
+}
+
 char    *ft_strjoinfreefirstln(char* to_free, char *line)
 {
     char *res;
@@ -25,25 +40,20 @@ void	ft_open_file(void)
 {
 	char *new_name;
 
-	new_name = "othername.cor";
+	new_name = ft_outputname();
 	g_new_fd = open(new_name ,O_CREAT | O_WRONLY | O_TRUNC, 0644);
-	// g_new_fd = open(new_name ,O_RDWR);
-	// char *line = "Lolo";
-	// write(g_new_fd, &line, 20);
+	free(new_name);
 	if (g_new_fd == -1)
 	{
-		ft_putstr("Error on creating the file!\n");
+		ft_putstr_fd("Error on creating the file!\n", 2);
 		ft_exit();
 	}
-	printf("New fd is %d\n", g_new_fd);
 }
 
 void	ft_write_to_file(int line)
 {
-//	int len;
 	int double_len;
 
 	double_len = ft_n_of_octets(line);
-//	printf("Len at printing is %d\n", double_len);
 	write(g_new_fd, &line, double_len);
 }

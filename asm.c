@@ -205,6 +205,18 @@ int    ft_findfilesize(void)
     return (res);
 }
 
+char    *ft_validname(char *name)
+{
+    if (!ft_hassuffix(name, ".s"))
+    {
+        ft_putstr_fd("Can't read source file ", 2);
+        ft_putstr_fd(name, 2);
+        ft_putstr_fd("\n", 2);
+        ft_exit();
+    }
+    return (name);
+}
+
 
 // It will read the assembly’s code processed from the file .s given as argument, and write the resulting bytecode in a file named same as the argument by replacing the extension .s by .cor.
 // In case of an error, you will need to display a relevant message on the standard error output and not create the .cor file.
@@ -225,6 +237,7 @@ int		main(int argc, char **argv)
 //        {
             ft_setup();
             asm_index = argc - 1;
+            g_file.file_name = ft_validname(argv[asm_index]);
             ft_to_assembler(argv[asm_index]);
             g_file.file_size = ft_findfilesize();
             ft_write();

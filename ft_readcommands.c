@@ -211,7 +211,6 @@ void	ft_addcommands(char *line)
 	}
 	if ((curr_label = ft_validfirst(split)) != NULL)
 	{
-        // add g_byte counter ples
         //delete g_label?
         g_curr_label = curr_label;
         if (ft_chararrlen(split) > 1)

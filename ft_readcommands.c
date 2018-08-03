@@ -196,12 +196,83 @@ void	ft_addcmdline(char **split, char *line)
     ft_addarguments(current_command);
 }
 
+char   *ft_addcharafter(char *line, int i, char ch)
+{
+    char            *new_line;
+    unsigned int    line_len;
+
+    line_len = ft_strlen(line);
+    new_line = ft_strnew(line_len + 1);
+    new_line = ft_strncpy(new_line, line, i + 1);
+    new_line[i + 1] = ch;
+    ft_strcpy(new_line + i + 2, line + i + 1);
+    return (new_line);
+}
+
+char    *ft_spacebeforedir(char *line)
+{
+    int             i;
+    char            *tmp;
+
+    i = -1;
+    while (line[++i] != '\0')
+    {
+        if (line[i] == DIRECT_CHAR && line[i + 1] != '\0')
+        {
+                if (i > 0 && (!ft_strchr(" \t", line[i - 1])))
+                {
+                    tmp = line;
+                    line = ft_addcharafter(line, i - 1, ' ');
+                    free(tmp);
+                    return (line);
+                }
+            return (line);
+        }
+    }
+    return (line);
+}
+
+char    *ft_spaceafterlabelfree(char *line)
+{
+    int             start;
+    int             i;
+    char            *chunk;
+    char            *tmp;
+
+    i = -1;
+    start = 0;
+    while (line[++i] != '\0')
+    {
+        if (ft_strchr(" \t", line[i]))
+            start++;
+        if (line[i] == LABEL_CHAR && line[i + 1] != '\0')
+        {
+            chunk = ft_strsub(line, start, i);
+            if (ft_line_consists_of(chunk, LABEL_CHARS) != 0)
+                if (!ft_strchr(" \t", line[i + 1]))
+                {
+                    tmp = line;
+                    line = ft_addcharafter(line, i, ' ');
+                    free(tmp);
+                    free(chunk);
+                    return (line);
+                }
+            free(chunk);
+            return (line);
+        }
+    }
+    return (line);
+}
+
+
+
 void	ft_addcommands(char *line)
 {
 	char    **split;
 	t_label *curr_label;
 
-//    line = ft_adjline(line);
+    line = ft_spaceafterlabelfree(line);
+    line = ft_spacebeforedir(line);
 	split = ft_sepsplit(line, " \t");
 	if (split == NULL /*|| ft_chararrlen(split) == 1*/)
 	{

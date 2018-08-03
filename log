@@ -1,16 +1,18 @@
 
 TO FIX:
 
-1) Слитное написание Label и команды
-2) Что если label уже существует?
-3) ОШИБКИ:
+1) Слитное написание Label и команды - FIXED NEEDS TEST ON ALL CHAMPS
+2) Слитное команды и процент - FIXED NEEDS TEST ON ALL CHAMPS
+ - Overflow
+3) Что если label уже существует?
+4) ОШИБКИ:
 	- в STD_ERR
 	- По стандарту?
 	- ЗАПИСАТЬ ФИНАЛЬНЫЙ ВЫВОД: успешно записан в файл...
 	- убрать мои printf
-4) Лики
-5) Норма
-6) Бонусы
+5) Лики
+6) Норма
+7) Бонусы
 
 
 _______________________________
@@ -77,11 +79,11 @@ darksasuke.s - checked
 casimir.s - checked
 _______________________________
 2017:
-Explosive_Kitty.s - same stuff with command and label written together; checked!
+---FIXED: Explosive_Kitty.s - same stuff with command and label written together; checked!
 ultima.s - checked
 gateau.s - checked
 mise_a_jour_windows95.s - checked
-run_Kitty_RUN.s - same stuff with command and label written together; checked!
+---FIXED: run_Kitty_RUN.s - same stuff with command and label written together; checked!
 overwatch.s - checked
 Douceur_power.s - checked!
 

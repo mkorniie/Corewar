@@ -185,11 +185,18 @@ int     ft_arg_byte(char **no_sep_split, int op_index, int start)
     return (arg_byte);
 }
 
+int     ft_uniquelabel(char *label)
+{
+    g_file.head;
+    return (1);
+    return (0);
+}
+
 t_label	*ft_validfirst(char **split)
 {
     static t_label *new_label;
 
-    if (ft_islabel(split[0]))
+    if (ft_islabel(split[0]) && ft_uniquelabel(split[0]))
     {
         g_haslabel = TRUE;
         new_label = ft_addlabel(split[0]);

@@ -112,8 +112,6 @@ void	ft_to_assembler(char *filename)
 		}
 		else if (!ft_empty_or_comment(line))
 		{
-            if (ft_strequ(line, "avdeftgt:"))
-                ft_putchar('\n');
             ft_changestatus(2, &status);
             ft_addcommands(line);
 		}
@@ -243,5 +241,6 @@ int		main(int argc, char **argv)
             ft_write();
 //        }
 	}
+//    while(1);
 	return (0);
 }

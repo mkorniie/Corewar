@@ -13,13 +13,9 @@
 #ifndef ASM_H
 # define ASM_H
 
-// open
 # include <fcntl.h>
-// // read, lseek, write, close, 
-#include <unistd.h>
-// ◦ malloc ◦ realloc ◦ free
+# include <unistd.h>
 # include <stdlib.h>
-// ◦ perror, strerror ◦ [exit IS BUILT IN]
 # include <stdio.h>
 
 # include "op.h"
@@ -28,36 +24,43 @@
 # include "libft/libft.h"
 # include "ft_printf_fd/header.h"
 
-#define NAME_SIZE			1
-#define CODAGE_SIZE			1
-#define CHAR_TYPE		    1
-#define TRUE                1
-#define FALSE               0
-#define MAX_INT				"2147483647"
-#define MIN_INT				"-2147483648"
-#define USAGE               "Usage: ./asm [-a] <sourcefile.s>\n -a : Instead of creating a .cor file, outputs a stripped and annotated version of the code to the standard output\n"
-#define BAD_SOURCE_FILE     "Can't open source file: %s\n"
-#define BAD_SOURCE_FILE_EXT "Can't read source file: %s - BAD EXTENSION\n"
-#define NAME_ERR            "Some error at name!\n"
-#define ORDER_ERR			"Some %s error!\n"
-#define ARG_TYPE_ERR		"Wrong argument type: %s\n"
-#define NOT_AN_ARG_ERR		"No such arg type: %s\n"
-#define INVAL_REG_NUM		"There's no registry number you've specified!\n"
-#define REG_NUM_NOT_PINT	"Oh no, registry number is not a positive int!\n"
-#define FILE_CREAT_ERR		"Error on creating the file!\n"
-#define NOT_LAB_CHARS		"OMG label doesn't consist of label chars. Noooooo\n"
-#define LABEL_EXISTS		"Label '%s' already exists!\n"
-#define LABEL_NOT_FOUND		"Label '%s' doesn't exist!\n"
-#define INVALID_FIRST_ARG	"First argument is not a label and not a command! '%s'\n"
-#define WRONG_N_OF_ARGS		"Something's wrong with a number of args in your line here! '%s'\n"
-#define N_OF_SEP_ERROR		"Wrong n of separators in '%s'! Boo!\n"
-#define WRONG_ARG_TYPES		"Wrong argument types! Booooo!\n"
-#define LONG_NAME_ERR		"Champion name: '%s' too long (See max length)\n"
-#define BOT_NAME_ERR		"Some syntax error in your bot name. You've put something after quotes!\n"
-#define NO_NAME				"No name string\n"
-#define NAME_QUOTE_ERR		"Some error when name is not in quotes or whatever\n"
-#define NO_NAME_TAG			"No name tag\n"
-#define C_S 				COMMENT_CMD_STRING	
+# define NAME_SIZE			1
+# define CODAGE_SIZE			1
+# define CHAR_TYPE		    1
+# define TRUE                1
+# define FALSE               0
+# define MAX_INT				"2147483647"
+# define MIN_INT				"-2147483648"
+# define USAGE               "Usage: ./asm [-a] <sourcefile.s>\n -a : Instead \
+of creating a .cor file, outputs a stripped and annotated version of the code \
+to the standard output\n"
+# define BAD_SOURCE_FILE     "Can't open source file: %s\n"
+# define BAD_SOURCE_FILE_EXT "Can't read source file: %s - BAD EXTENSION\n"
+# define NAME_ERR            "Some error at name!\n"
+# define ORDER_ERR			"Some %s error!\n"
+# define ARG_TYPE_ERR		"Wrong argument type: %s\n"
+# define NOT_AN_ARG_ERR		"No such arg type: %s\n"
+# define INVAL_REG_NUM		"There's no registry number you've specified!\n"
+# define REG_NUM_NOT_PINT	"Oh no, registry number is not a positive int!\n"
+# define FILE_CREAT_ERR		"Error on creating the file!\n"
+# define NOT_LAB_CHARS		"OMG label doesn't consist of label chars. \
+Noooooo\n"
+# define LABEL_EXISTS		"Label '%s' already exists!\n"
+# define LABEL_NOT_FOUND		"Label '%s' doesn't exist!\n"
+# define INVALID_FIRST_ARG	"First argument is not a label and not a command!\
+ '%s'\n"
+# define WRONG_N_OF_ARGS		"Something's wrong with a number of args in \
+ your line here! '%s'\n"
+# define N_OF_SEP_ERROR		"Wrong n of separators in '%s'! Boo!\n"
+# define WRONG_ARG_TYPES		"Wrong argument types! Booooo!\n"
+# define LONG_NAME_ERR		"Champion name: '%s' too long (See max length)\n"
+# define BOT_NAME_ERR		"Some syntax error in your bot name. You've \
+ put something after quotes!\n"
+# define NO_NAME				"No name string\n"
+# define NAME_QUOTE_ERR		"Some error when name is not in quotes or \
+ whatever\n"
+# define NO_NAME_TAG			"No name tag\n"
+# define C_S 				COMMENT_CMD_STRING	
 
 typedef struct			    s_declare
 {
@@ -152,49 +155,49 @@ int                         g_haslabel;
 int                         g_line_counter;
 char				        *g_output_name;
 
-void				        ft_open_file(void);
-void				        ft_write_to_file(int line);
-int					        ft_mod(int number);
-int					        ft_hexlen(int hex_number);
-void				        ft_exit(void);
-char				        **ft_sepsplit(char const *s, char *c_line);
-void				        ft_write(void);
-int					        ft_chararrlen(char **arr);
-int					        ft_intarrlen(int *arr);
-void				        ft_text_to_hex(char *text);
-char				        *ft_strjoinfreefirst(char *to_free, char *to_add);
-int					        ft_hassuffix(char *line, char *suffix);
-void				        ft_lengthcheck(t_declare *glob_struct);
-char				        *ft_addnameline(char *line);
-void				        ft_checkfirstline(char *line, t_declare *glob_struct);
-char				        *ft_quotetrim(char *raw_name, t_declare *glob_struct);
-void				        ft_addsequence(char *read_line, t_declare *glob_struct);
-void				        ft_addcommands(char *line);
-void				        ft_addtotail(t_label *new);
-t_label                     *ft_addlabel(char *name);
-void				        ft_printchararr(char **arr);
-int					        ft_isnumline(char *line);
-int		                    ft_lineisint(char *line);
-int		                    ft_command_index(char *chunk);
-int                         ft_line_consists_of(char *line, char *chars);
-t_comline                   *ft_newcomline();
-t_label	                    *ft_validfirst(char **split);
-int                         ft_find_argtype(char *arg_line);
-int		                    ft_islabel(char *first_chunk);
-int                         ft_isreg(char *arg_line);
-int                         ft_isdir(char *arg_line);
-int                         ft_isind(char *arg_line);
-char                        *ft_new_line_with_separators(void);
-void	                    ft_addtocomltail(t_comline *new);
-char                        *ft_strjoinfreefirstln(char* to_free, char *line);
-int                         ft_arg_byte(char **no_sep_split, int op_index, int start);
-int                         ft_get_cmd_byte(int op_index, char *line, int has_label);
-void                        ft_printcode(void);
-void	                    ft_divide_in_octets(int number_to_print);
-int                         ft_n_of_octets(int int_val);
-int                         ft_count_label(t_label *start_label, t_comline *command, int index);
-int                         ft_countargsize(t_label *label, t_comline *command);
-t_label                     *ft_find_label(char *label_name);
+void						ft_open_file(void);
+void						ft_write_to_file(int line);
+int							ft_mod(int number);
+int							ft_hexlen(int hex_number);
+void						ft_exit(void);
+char						**ft_sepsplit(char const *s, char *c_line);
+void						ft_write(void);
+int							ft_chararrlen(char **arr);
+int							ft_intarrlen(int *arr);
+void						ft_text_to_hex(char *text);
+char						*ft_strjoinfreefirst(char *to_free, char *to_add);
+int							ft_hassuffix(char *line, char *suffix);
+void						ft_lengthcheck(t_declare *glob_struct);
+char						*ft_addnameline(char *line);
+void						ft_checkfirstline(char *line, t_declare *glob_struct);
+char						*ft_quotetrim(char *raw_name, t_declare *glob_struct);
+void						ft_addsequence(char *read_line, t_declare *glob_struct);
+void						ft_addcommands(char *line);
+void						ft_addtotail(t_label *new);
+t_label						*ft_addlabel(char *name);
+void						ft_printchararr(char **arr);
+int							ft_isnumline(char *line);
+int							ft_lineisint(char *line);
+int							ft_command_index(char *chunk);
+int							ft_line_consists_of(char *line, char *chars);
+t_comline					*ft_newcomline();
+t_label						*ft_validfirst(char **split);
+int							ft_find_argtype(char *arg_line);
+int							ft_islabel(char *first_chunk);
+int							ft_isreg(char *arg_line);
+int							ft_isdir(char *arg_line);
+int							ft_isind(char *arg_line);
+char						*ft_new_line_with_separators(void);
+void						ft_addtocomltail(t_comline *new);
+char						*ft_strjoinfreefirstln(char* to_free, char *line);
+int							ft_arg_byte(char **no_sep_split, int op_index, int start);
+int							ft_get_cmd_byte(int op_index, char *line, int has_label);
+void						ft_printcode(void);
+void						ft_divide_in_octets(int number_to_print);
+int							ft_n_of_octets(int int_val);
+int							ft_count_label(t_label *start_label, t_comline *command, int index);
+int							ft_countargsize(t_label *label, t_comline *command);
+t_label						*ft_find_label(char *label_name);
 long						ft_latoi(const char *str);
 void						ft_exit_number_line(const char *format, char *option);
 void						ft_exit_number(const char *format, char *option);

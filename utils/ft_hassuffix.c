@@ -30,13 +30,3 @@ int	ft_hassuffix(char *line, char *suffix)
 	}
 	return (1);
 }
-
-// int main()
-// {
-// 	printf("Has abc suff abcd? %d\n", ft_hassuffix("abc", "abcd"));
-// 	printf("Has abc suff abc? %d\n", ft_hassuffix("abc", "abc"));
-// 	printf("Has abc suff a? %d\n", ft_hassuffix("abc", "a"));
-// 	printf("Has abc suff b? %d\n", ft_hassuffix("abc", "b"));
-// 	printf("Has abc suff c? %d\n", ft_hassuffix("abc", "c"));
-// 	printf("Has zork.s suff .s? %d\n", ft_hassuffix("zork.s", ".s"));
-// }

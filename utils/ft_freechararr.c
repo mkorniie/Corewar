@@ -1,22 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_mod.c                                           :+:      :+:    :+:   */
+/*   ft_freechararr.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mkorniie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/07/05 12:59:21 by mkorniie          #+#    #+#             */
-/*   Updated: 2018/07/05 12:59:23 by mkorniie         ###   ########.fr       */
+/*   Created: 2018/08/20 17:20:30 by mkorniie          #+#    #+#             */
+/*   Updated: 2018/08/20 17:20:31 by mkorniie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../asm.h"
 
-int		ft_mod(int number)
+void	ft_freechararr(char **arr)
 {
-	if (number == -2147483648)
-		return (2147483647);
-	if (number > 0)
-		return (number);
-	return (number * (-1));
+	int i;
+
+	i = 0;
+	while (arr[i])
+	{
+		free(arr[i]);
+		i++;
+	}
+	free(arr);
 }

@@ -12,42 +12,6 @@
 
 #include "asm.h"
 
-int		ft_count_zeroes(int len)
-{
-	if (len == 0)
-		return (2);
-	if (len % 4 == 0)
-		return (0);
-	return (4 - (len % 4));
-}
-
-void	ft_divide_in_octets(int number_to_print)
-{
-	int zeroes_to_add;
-	int len;
-	int octet;
-	int power;
-
-	len = ft_hexlen(number_to_print);
-	octet = 0x0;
-	zeroes_to_add = (ft_count_zeroes(len) / 2) + 1;
-	while ((--zeroes_to_add) > 0)
-		ft_write_to_file(0x0);
-	while (number_to_print > 0)
-	{
-		len -= 2;
-		power = ft_pow(16, len);
-		octet = number_to_print / power;
-		ft_write_to_file(octet);
-		number_to_print -= octet * power;
-	}
-}
-
-void	ft_print_magic(void)
-{
-	ft_divide_in_octets(COREWAR_EXEC_MAGIC);
-}
-
 void	ft_print_null(void)
 {
 	int len;
@@ -112,12 +76,11 @@ void	ft_print_size(void)
 void	ft_write(void)
 {
 	ft_open_file();
-	ft_print_magic();
+	ft_divide_in_octets(COREWAR_EXEC_MAGIC);
 	ft_print_botname();
 	ft_print_null();
 	ft_print_size();
 	ft_print_comment();
 	ft_print_null();
-
 	ft_printcode();
 }

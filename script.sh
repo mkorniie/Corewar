@@ -1,4 +1,4 @@
-MY_ASM="$HOME/Documents/CoreWar/cmake-build-debug/CoreWar"
+MY_ASM="$HOME/Documents/CoreWar/asm"
 ASM="$HOME/Downloads/vm_champs/asm"
 
 # while [[  ]] ; do

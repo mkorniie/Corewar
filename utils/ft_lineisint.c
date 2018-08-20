@@ -43,7 +43,12 @@ int		ft_lineisint(char *line)
 	i = -1 + has_sign;
 	while (++i < len)
 		if (tmp[i] != (tmp[0] == '-' ? MIN_INT[i] : MAX_INT[i]))
-			return ((tmp[0] == '-' ? MIN_INT[i] : MAX_INT[i]) < tmp[i] ? 0 : 1);
+		{
+			if (tmp[0] == '-')
+				return (MIN_INT[i] < tmp[i] ? 0 : 1);
+			else
+				return (MAX_INT[i] < tmp[i] ? 0 : 1);
+		}
 	return (1);
 }
 

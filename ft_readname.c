@@ -12,7 +12,7 @@
 
 #include "asm.h"
 
-char *ft_quotetrim(char *raw_name, t_declare *glob_struct)
+char	*ft_quotetrim(char *raw_name, t_declare *glob_struct)
 {
 	char	*res;
 	char	*quote_char;
@@ -33,26 +33,12 @@ char *ft_quotetrim(char *raw_name, t_declare *glob_struct)
 	return (res);
 }
 
-void	ft_freechararr(char **arr)
-{
-	int i;
-
-	i = 0;
-	while (arr[i])
-	{
-		free(arr[i]);
-		i++;
-	}
-	free(arr);
-}
-
 void	ft_checkfirstline(char *line, t_declare *glob_struct)
 {
-	//leaks free
-	char **split;
-	char *tmp;
-	char *name;
-	int len;
+	char	**split;
+	char	*tmp;
+	char	*name;
+	int		len;
 
 	split = ft_sepsplit(line, " \t");
 	if (ft_chararrlen(split) == 1)
@@ -108,13 +94,6 @@ char	*ft_addline(char *line, t_declare *glob_struct)
 	return (res);
 }
 
-void    ft_lengthcheck(t_declare *glob_struct)
-{
-	glob_struct->length = ft_strlen(glob_struct->line);
-    if (glob_struct->length > glob_struct->max_length)
-        ft_exit_number_line(LONG_NAME_ERR, glob_struct->name);
-}
-
 void	ft_addsequence(char *read_line, t_declare *glob_struct)
 {
 	char *res;
@@ -128,5 +107,5 @@ void	ft_addsequence(char *read_line, t_declare *glob_struct)
 		glob_struct->line = ft_strjoinfreefirst(glob_struct->line, res);
 		free(res);
 	}
-    ft_lengthcheck(glob_struct);
+	ft_lengthcheck(glob_struct);
 }

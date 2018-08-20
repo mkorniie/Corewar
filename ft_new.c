@@ -1,22 +1,41 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_mod.c                                           :+:      :+:    :+:   */
+/*   ft_new.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mkorniie <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/07/05 12:59:21 by mkorniie          #+#    #+#             */
-/*   Updated: 2018/07/05 12:59:23 by mkorniie         ###   ########.fr       */
+/*   Created: 2018/08/20 17:13:43 by mkorniie          #+#    #+#             */
+/*   Updated: 2018/08/20 17:13:45 by mkorniie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../asm.h"
+#include "asm.h"
 
-int		ft_mod(int number)
+t_arg   *ft_newtarg(void)
 {
-	if (number == -2147483648)
-		return (2147483647);
-	if (number > 0)
-		return (number);
-	return (number * (-1));
+	t_arg   *res;
+
+	res = (t_arg*)malloc(sizeof(t_arg));
+	res->line = NULL;
+	res->arg_type = 0;
+	res->int_value = 0;
+	res->char_value = NULL;
+	return (res);
+}
+
+t_arg **ft_newargarray(int len)
+{
+	t_arg   **res;
+	int     i;
+
+	res = (t_arg**)malloc(sizeof(t_arg*) * (len + 1));
+	res[len] = NULL;
+	i = 0;
+	while (i < len)
+	{
+		res[i] = ft_newtarg();
+		i++;
+	}
+	return (res);
 }

@@ -12,6 +12,16 @@
 
 #include "asm.h"
 
+int		ft_open(char *filename)
+{
+	int fd;
+
+	fd = open(filename, O_RDONLY);
+	if (fd == -1)
+		ft_exit_number(BAD_SOURCE_FILE, filename);
+	return (fd);
+}
+
 char	*ft_outputname(void)
 {
 	unsigned int name_len;

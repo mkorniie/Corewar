@@ -12,11 +12,6 @@
 
 #include "../asm.h"
 
-// void	ft_exit_number_line(int i)
-// {
-	
-// }
-
 void	ft_exit(void)
 {
 	exit(1);

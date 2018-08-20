@@ -12,7 +12,7 @@
 
 #include "../asm.h"
 
-// void	ft_exit_number(int i)
+// void	ft_exit_number_line(int i)
 // {
 	
 // }

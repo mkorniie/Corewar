@@ -12,6 +12,12 @@
 
 #include "asm.h"
 
+void    ft_freegetcmd(char **no_sep_split, char *sepline)
+{
+    free(sepline);
+    ft_freechararr(no_sep_split);
+}
+
 int     ft_get_cmd_byte(int op_index, char *line, int has_label)
 {
     int     arrlen;
@@ -22,23 +28,26 @@ int     ft_get_cmd_byte(int op_index, char *line, int has_label)
     sepline = ft_new_line_with_separators();
     no_sep_split = ft_sepsplit(line, sepline);
     arrlen = ft_chararrlen(no_sep_split);
-    ft_printchararr(no_sep_split);
     arrlen -= (has_label == 1 ? 2 : 1);
     if (arrlen == op_tab[op_index].n_of_args)
     {
         if ((args_byte = ft_arg_byte(no_sep_split, op_index, has_label + 1)) != 0)
+        {
+            ft_freegetcmd(no_sep_split, sepline);
             return (args_byte);
+        }
         else
         {
-            ft_printf("Wrong argument types! Booooo!\n");
-            ft_exit();
+//            ft_freegetcmd(no_sep_split, sepline);
+            ft_exit_number_line(WRONG_ARG_TYPES, line);
         }
     }
     else
     {
-        ft_printf("Wrong arguments number! Booooo!\n");
-        ft_exit();
+//        ft_freegetcmd(no_sep_split, sepline);
+        ft_exit_number_line(WRONG_N_OF_ARGS, line);
     }
+    ft_freegetcmd(no_sep_split, sepline);
     return (0);
 }
 
@@ -139,6 +148,8 @@ char    *ft_find_arg_end(char *line, int arg_index)
     while (i <= arg_index)
     {
         res = ft_strstr(line + len, g_arg[i]->line) + ft_strlen(g_arg[i]->line);
+        if (res == NULL)
+            ft_exit_number_line("Inernal error!\n", NULL);
         len = ft_strlen(line) - ft_strlen(res);
         i++;
     }
@@ -153,10 +164,7 @@ void    ft_right_seps(char *line, t_op command)
     int n_of_seps;
 
     if(ft_n_of_seps(line) != (command.n_of_args - 1))
-    {
-        ft_printf("Wrong number of separators! %s", line);
-        ft_exit();
-    }
+        ft_exit_number_line(N_OF_SEP_ERROR, line);
     i = -1;
     while (++i < (command.n_of_args - 1))
     {
@@ -172,10 +180,7 @@ void    ft_right_seps(char *line, t_op command)
             z++;
         }
         if (n_of_seps != 1)
-        {
-            ft_printf("Wrong n of separators in '%s'! Boo!\n", line);
-            ft_exit();
-        }
+            ft_exit_number_line(N_OF_SEP_ERROR, line);
     }
 }
 
@@ -209,10 +214,10 @@ char   *ft_addcharafter(char *line, int i, char ch)
     return (new_line);
 }
 
-char    *ft_spacebeforedir(char *line)
+char    *ft_spacebeforedirfree(char *line)
 {
-    int             i;
-    char            *tmp;
+    int     i;
+    char    *tmp;
 
     i = -1;
     while (line[++i] != '\0')
@@ -221,10 +226,9 @@ char    *ft_spacebeforedir(char *line)
         {
                 if (i > 0 && (!ft_strchr(" \t", line[i - 1])))
                 {
-                    tmp = line;
-                    line = ft_addcharafter(line, i - 1, ' ');
-                    free(tmp);
-                    return (line);
+                    tmp = ft_addcharafter(line, i - 1, ' ');
+                    free(line);
+                    return (tmp);
                 }
             return (line);
         }
@@ -237,7 +241,6 @@ char    *ft_spaceafterlabelfree(char *line)
     int             start;
     int             i;
     char            *chunk;
-    char            *tmp;
 
     i = -1;
     start = 0;
@@ -251,17 +254,15 @@ char    *ft_spaceafterlabelfree(char *line)
             if (ft_line_consists_of(chunk, LABEL_CHARS) != 0)
                 if (!ft_strchr(" \t", line[i + 1]))
                 {
-                    tmp = line;
-                    line = ft_addcharafter(line, i, ' ');
-                    free(tmp);
+//                    line = ft_addcharafter(line, i, ' ');
                     free(chunk);
-                    return (line);
+                    return (ft_addcharafter(line, i, ' '));
                 }
             free(chunk);
-            return (line);
+            return (ft_strdup(line));
         }
     }
-    return (line);
+    return (ft_strdup(line));
 }
 
 
@@ -270,28 +271,24 @@ void	ft_addcommands(char *line)
 {
 	char    **split;
 	t_label *curr_label;
+    char    *work_line;
 
-    line = ft_spaceafterlabelfree(line);
-    line = ft_spacebeforedir(line);
-	split = ft_sepsplit(line, " \t");
-	if (split == NULL /*|| ft_chararrlen(split) == 1*/)
-	{
-		//write to STDERROR PLES
-		ft_printf("Something's wrong with a number of args in your line here! %s\n", line);
-		ft_exit();
-	}
+    work_line = ft_spaceafterlabelfree(line);
+    work_line = ft_spacebeforedirfree(work_line);
+	split = ft_sepsplit(work_line, " \t");
+	if (split == NULL)
+        ft_exit_number_line(WRONG_N_OF_ARGS, work_line);
 	if ((curr_label = ft_validfirst(split)) != NULL)
 	{
-        //delete g_label?
         g_curr_label = curr_label;
         if (ft_chararrlen(split) > 1)
-    		ft_addcmdline(split, line);
+    		ft_addcmdline(split, work_line);
+        ft_freechararr(split);
+        free(work_line);
 	}
 	else
-	{
-		ft_printf("First argument is not a label and not a command! %s\n", line);
-		ft_exit();
-	}
-	//for label existance check add ples
-	ft_printf("%s\n", line);
+    {
+        ft_freechararr(split);
+        ft_exit_number_line(INVALID_FIRST_ARG, work_line);
+    }
 }

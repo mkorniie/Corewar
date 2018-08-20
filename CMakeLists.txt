@@ -4,39 +4,39 @@ project(CoreWar)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(CoreWar
-        ft_printf/extract_func_0.c
-        ft_printf/extract_func_1.c
-        ft_printf/extract_func_2.c
-        ft_printf/extract_func_3.c
-        ft_printf/extract_func_4.c
-        ft_printf/extract_func_5.c
-        ft_printf/extract_func_6.c
-        ft_printf/extract_func_7.c
-        ft_printf/extract_func_8.c
-        ft_printf/extract_func_9.c
-        ft_printf/ft_addustring.c
-        ft_printf/ft_chartostr.c
-        ft_printf/ft_convert.c
-        ft_printf/ft_ditoap.c
-        ft_printf/ft_fieldflags.c
-        ft_printf/ft_fieldflags_additional.c
-        ft_printf/ft_flags.c
-        ft_printf/ft_freearr.c
-        ft_printf/ft_litoa.c
-        ft_printf/ft_malloc.c
-        ft_printf/ft_modfunc.c
-        ft_printf/ft_parce.c
-        ft_printf/ft_powl.c
-        ft_printf/ft_presicion.c
-        ft_printf/ft_printf.c
-        ft_printf/ft_strdupfree.c
-        ft_printf/ft_strjoinfree.c
-        ft_printf/ft_strndupfree.c
-        ft_printf/ft_ubase.c
-        ft_printf/ft_ulitoa.c
-        ft_printf/ft_unicode.c
-        ft_printf/ft_validflag.c
-        ft_printf/header.h
+        ft_printf_fd/extract_func_0.c
+        ft_printf_fd/extract_func_1.c
+        ft_printf_fd/extract_func_2.c
+        ft_printf_fd/extract_func_3.c
+        ft_printf_fd/extract_func_4.c
+        ft_printf_fd/extract_func_5.c
+        ft_printf_fd/extract_func_6.c
+        ft_printf_fd/extract_func_7.c
+        ft_printf_fd/extract_func_8.c
+        ft_printf_fd/extract_func_9.c
+        ft_printf_fd/ft_addustring.c
+        ft_printf_fd/ft_chartostr.c
+        ft_printf_fd/ft_convert.c
+        ft_printf_fd/ft_ditoap.c
+        ft_printf_fd/ft_fieldflags.c
+        ft_printf_fd/ft_fieldflags_additional.c
+        ft_printf_fd/ft_flags.c
+        ft_printf_fd/ft_freearr.c
+        ft_printf_fd/ft_litoa.c
+        ft_printf_fd/ft_malloc.c
+        ft_printf_fd/ft_modfunc.c
+        ft_printf_fd/ft_parce.c
+        ft_printf_fd/ft_powl.c
+        ft_printf_fd/ft_presicion.c
+        ft_printf_fd/ft_printf_fd.c
+        ft_printf_fd/ft_strdupfree.c
+        ft_printf_fd/ft_strjoinfree.c
+        ft_printf_fd/ft_strndupfree.c
+        ft_printf_fd/ft_ubase.c
+        ft_printf_fd/ft_ulitoa.c
+        ft_printf_fd/ft_unicode.c
+        ft_printf_fd/ft_validflag.c
+        ft_printf_fd/header.h
         libft/ft_abs.c
         libft/ft_atoi.c
         libft/ft_bzero.c
@@ -101,30 +101,31 @@ add_executable(CoreWar
         libft/ft_strtrim.c
         libft/ft_tolower.c
         libft/ft_toupper.c
-        ft_labellist.c
         libft/libft.h
+        utils/ft_chararrlen.c
         utils/ft_exit.c
         utils/ft_hassuffix.c
-        utils/ft_sepsplit.c
-        utils/ft_strjoinfreefirst.c
-        utils/ft_chararrlen.c
         utils/ft_hexlen.c
         utils/ft_intarrlen.c
-        utils/ft_mod.c
-        utils/ft_text_to_hex.c
-        utils/ft_printchararr.c
         utils/ft_isnumline.c
+        utils/ft_latoi.c
         utils/ft_lineisint.c
+        utils/ft_mod.c
+        utils/ft_latoi.c
+        utils/ft_sepsplit.c
+        utils/ft_strjoinfreefirst.c
+        utils/ft_text_to_hex.c
         utils/ft_utils_to_split.c
         asm.c
         asm.h
         ft_argvalidate.c
-        ft_readname.c
-        ft_readcommands.c
         ft_file.c
-        ft_write.c
-        ft_printcode.c
+        ft_labellist.c
         ft_labels.c
+        ft_printcode.c
+        ft_readcommands.c
+        ft_readname.c
+        ft_write.c
         get_next_line.c
         get_next_line.h
         op.h)

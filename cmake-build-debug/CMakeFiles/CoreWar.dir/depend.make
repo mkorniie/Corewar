@@ -3,190 +3,190 @@
 
 CMakeFiles/CoreWar.dir/asm.c.o: ../asm.c
 CMakeFiles/CoreWar.dir/asm.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/asm.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/asm.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/asm.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/asm.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/asm.c.o: ../op.h
 
 CMakeFiles/CoreWar.dir/ft_argvalidate.c.o: ../asm.h
 CMakeFiles/CoreWar.dir/ft_argvalidate.c.o: ../ft_argvalidate.c
-CMakeFiles/CoreWar.dir/ft_argvalidate.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/ft_argvalidate.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/ft_argvalidate.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/ft_argvalidate.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/ft_argvalidate.c.o: ../op.h
 
 CMakeFiles/CoreWar.dir/ft_file.c.o: ../asm.h
 CMakeFiles/CoreWar.dir/ft_file.c.o: ../ft_file.c
-CMakeFiles/CoreWar.dir/ft_file.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/ft_file.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/ft_file.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/ft_file.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/ft_file.c.o: ../op.h
 
 CMakeFiles/CoreWar.dir/ft_labellist.c.o: ../asm.h
 CMakeFiles/CoreWar.dir/ft_labellist.c.o: ../ft_labellist.c
-CMakeFiles/CoreWar.dir/ft_labellist.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/ft_labellist.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/ft_labellist.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/ft_labellist.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/ft_labellist.c.o: ../op.h
 
 CMakeFiles/CoreWar.dir/ft_labels.c.o: ../asm.h
 CMakeFiles/CoreWar.dir/ft_labels.c.o: ../ft_labels.c
-CMakeFiles/CoreWar.dir/ft_labels.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/ft_labels.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/ft_labels.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/ft_labels.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/ft_labels.c.o: ../op.h
 
 CMakeFiles/CoreWar.dir/ft_printcode.c.o: ../asm.h
 CMakeFiles/CoreWar.dir/ft_printcode.c.o: ../ft_printcode.c
-CMakeFiles/CoreWar.dir/ft_printcode.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/ft_printcode.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/ft_printcode.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/ft_printcode.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/ft_printcode.c.o: ../op.h
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o: ../ft_printf/extract_func_0.c
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o: ../ft_printf_fd/extract_func_0.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o: ../ft_printf/extract_func_1.c
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o: ../ft_printf_fd/extract_func_1.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o: ../ft_printf/extract_func_2.c
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o: ../ft_printf_fd/extract_func_2.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o: ../ft_printf/extract_func_3.c
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o: ../ft_printf_fd/extract_func_3.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o: ../ft_printf/extract_func_4.c
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o: ../ft_printf_fd/extract_func_4.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o: ../ft_printf/extract_func_5.c
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o: ../ft_printf_fd/extract_func_5.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o: ../ft_printf/extract_func_6.c
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o: ../ft_printf_fd/extract_func_6.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o: ../ft_printf/extract_func_7.c
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o: ../ft_printf_fd/extract_func_7.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o: ../ft_printf/extract_func_8.c
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o: ../ft_printf_fd/extract_func_8.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o: ../ft_printf/extract_func_9.c
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o: ../ft_printf_fd/extract_func_9.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o: ../ft_printf/ft_addustring.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o: ../ft_printf_fd/ft_addustring.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o: ../ft_printf/ft_chartostr.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o: ../ft_printf_fd/ft_chartostr.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o: ../ft_printf/ft_convert.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o: ../ft_printf_fd/ft_convert.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o: ../ft_printf/ft_ditoap.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o: ../ft_printf_fd/ft_ditoap.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o: ../ft_printf/ft_fieldflags.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o: ../ft_printf_fd/ft_fieldflags.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o: ../ft_printf/ft_fieldflags_additional.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o: ../ft_printf_fd/ft_fieldflags_additional.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o: ../ft_printf/ft_flags.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o: ../ft_printf_fd/ft_flags.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o: ../ft_printf/ft_freearr.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o: ../ft_printf_fd/ft_freearr.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o: ../ft_printf/ft_litoa.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o: ../ft_printf_fd/ft_litoa.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o: ../ft_printf/ft_malloc.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o: ../ft_printf_fd/ft_malloc.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o: ../ft_printf/ft_modfunc.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o: ../ft_printf_fd/ft_modfunc.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o: ../ft_printf/ft_parce.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o: ../ft_printf_fd/ft_parce.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o: ../ft_printf/ft_powl.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o: ../ft_printf_fd/ft_powl.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o: ../ft_printf/ft_presicion.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o: ../ft_printf_fd/ft_presicion.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o: ../ft_printf/ft_printf.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o: ../ft_printf_fd/ft_printf_fd.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o: ../ft_printf/ft_strdupfree.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o: ../ft_printf_fd/ft_strdupfree.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o: ../ft_printf/ft_strjoinfree.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o: ../ft_printf_fd/ft_strjoinfree.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o: ../ft_printf/ft_strndupfree.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o: ../ft_printf_fd/ft_strndupfree.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o: ../ft_printf/ft_ubase.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o: ../ft_printf_fd/ft_ubase.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o: ../ft_printf/ft_ulitoa.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o: ../ft_printf_fd/ft_ulitoa.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o: ../ft_printf/ft_unicode.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o: ../ft_printf_fd/ft_unicode.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o: ../libft/libft.h
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o: ../ft_printf/ft_validflag.c
-CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o: ../ft_printf_fd/ft_validflag.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o: ../libft/libft.h
 
 CMakeFiles/CoreWar.dir/ft_readcommands.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/ft_readcommands.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/ft_readcommands.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/ft_readcommands.c.o: ../ft_readcommands.c
 CMakeFiles/CoreWar.dir/ft_readcommands.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/ft_readcommands.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/ft_readcommands.c.o: ../op.h
 
 CMakeFiles/CoreWar.dir/ft_readname.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/ft_readname.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/ft_readname.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/ft_readname.c.o: ../ft_readname.c
 CMakeFiles/CoreWar.dir/ft_readname.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/ft_readname.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/ft_readname.c.o: ../op.h
 
 CMakeFiles/CoreWar.dir/ft_write.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/ft_write.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/ft_write.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/ft_write.c.o: ../ft_write.c
 CMakeFiles/CoreWar.dir/ft_write.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/ft_write.c.o: ../libft/libft.h
@@ -389,91 +389,91 @@ CMakeFiles/CoreWar.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
 CMakeFiles/CoreWar.dir/libft/ft_toupper.c.o: ../libft/libft.h
 
 CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o: ../op.h
 CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o: ../utils/ft_chararrlen.c
 
 CMakeFiles/CoreWar.dir/utils/ft_exit.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/utils/ft_exit.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/utils/ft_exit.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/utils/ft_exit.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/utils/ft_exit.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/utils/ft_exit.c.o: ../op.h
 CMakeFiles/CoreWar.dir/utils/ft_exit.c.o: ../utils/ft_exit.c
 
 CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o: ../op.h
 CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o: ../utils/ft_hassuffix.c
 
 CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o: ../op.h
 CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o: ../utils/ft_hexlen.c
 
 CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o: ../op.h
 CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o: ../utils/ft_intarrlen.c
 
 CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o: ../op.h
 CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o: ../utils/ft_isnumline.c
 
+CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o: ../asm.h
+CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o: ../ft_printf_fd/header.h
+CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o: ../get_next_line.h
+CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o: ../libft/libft.h
+CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o: ../op.h
+CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o: ../utils/ft_latoi.c
+
 CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o: ../op.h
 CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o: ../utils/ft_lineisint.c
 
 CMakeFiles/CoreWar.dir/utils/ft_mod.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/utils/ft_mod.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/utils/ft_mod.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/utils/ft_mod.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/utils/ft_mod.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/utils/ft_mod.c.o: ../op.h
 CMakeFiles/CoreWar.dir/utils/ft_mod.c.o: ../utils/ft_mod.c
 
-CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o: ../ft_printf/header.h
-CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o: ../get_next_line.h
-CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o: ../libft/libft.h
-CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o: ../op.h
-CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o: ../utils/ft_printchararr.c
-
 CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o: ../op.h
 CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o: ../utils/ft_sepsplit.c
 
 CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o: ../op.h
 CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o: ../utils/ft_strjoinfreefirst.c
 
 CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o: ../op.h
 CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o: ../utils/ft_text_to_hex.c
 
 CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o: ../asm.h
-CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o: ../ft_printf/header.h
+CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o: ../ft_printf_fd/header.h
 CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o: ../get_next_line.h
 CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o: ../libft/libft.h
 CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o: ../op.h

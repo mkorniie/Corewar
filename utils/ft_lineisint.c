@@ -29,7 +29,27 @@ char	*ft_trimzeroes(char *line)
 int		ft_lineisint(char *line)
 {
 	char	*tmp;
-	char	*max_int;
+	int		len;
+	int		i;
+	int		has_sign;
+
+	tmp = ft_trimzeroes(line);
+	has_sign = (tmp[0] == '-' || tmp[0] == '+' ? 1 : 0);
+	if (!ft_isnumline(line + has_sign))
+		return (0);
+	len = ft_strlen(tmp);
+	if (len != (10 + has_sign))
+		return ((len > (10 + has_sign)) ? 0 : 1);
+	i = -1 + has_sign;
+	while (++i < len)
+		if (tmp[i] != (tmp[0] == '-' ? MIN_INT[i] : MAX_INT[i]))
+			return ((tmp[0] == '-' ? MIN_INT[i] : MAX_INT[i]) < tmp[i] ? 0 : 1);
+	return (1);
+}
+
+int		ft_lineispint(char *line)
+{
+	char	*tmp;
 	int		len;
 	int		i;
 
@@ -41,15 +61,13 @@ int		ft_lineisint(char *line)
 		return (0);
 	else if (len < 10)
 		return (1);
-	i = 0;
-	max_int = "2147483647";
-	while (i < len)
+	i = -1;
+	while (++i < len)
 	{
-		if (max_int[i] > tmp[i])
+		if (MAX_INT[i] > tmp[i])
 			return (1);
-		else if (max_int[i] < tmp[i])
+		else if (MAX_INT[i] < tmp[i])
 			return (0);
-		i++;
 	}
 	return (1);
 }

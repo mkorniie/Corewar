@@ -24,8 +24,6 @@ t_label *ft_find_label(char *label_name)
             return (tmp);
         tmp = tmp->next;
     }
-    ft_printf("Label '%s' doesn't exist!\n", label_name);
-    ft_exit();
     return (NULL);
 }
 
@@ -37,7 +35,8 @@ int     ft_find_label_dst(t_label *start_label, t_comline *cmd, char *lab_name, 
     t_label     *target_label;
 
     res = 0;
-    target_label = ft_find_label(lab_name);
+    if ((target_label = ft_find_label(lab_name)) == NULL)
+        ft_exit_number(LABEL_NOT_FOUND, lab_name);
     lbl_tmp = start_label;
     target = (target == NULL ? target_label->commands_head : target);
     while (lbl_tmp)

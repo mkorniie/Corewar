@@ -12,17 +12,32 @@
 
 #include "asm.h"
 
+void    ft_exit_number(const char *format, char *option)
+{
+    if (option != NULL) {
+        ft_printf_fd(2, format, option);
+    }
+    else
+    {
+        ft_printf_fd(2, format);
+        free(option);
+    }
+    ft_exit();
+}
+
+void    ft_exit_number_line(const char *format, char *option)
+{
+    ft_printf_fd(2, "LINE %d: ", g_line_counter);
+    ft_exit_number(format, option);
+}
+
 int    ft_open(char *filename)
 {
     int fd;
 
     fd = open(filename, O_RDONLY);
     if (fd == -1)
-    {
-        // ft_exit_number(0);
-        ft_printf("Can't read source file %s\n", filename);
-        ft_exit();
-    }
+        ft_exit_number(BAD_SOURCE_FILE, filename);
     return (fd);
 }
 
@@ -36,20 +51,14 @@ void     ft_changestatus(int index, int *status)
                 *status = 0;
         }
         else
-        {
-            ft_printf("Some name error!\n");
-            ft_exit();
-        }
+            ft_exit_number_line(NAME_ERR, NULL);
     }
     else
     {
         if (*status == (index - 1))
             *status = index;
         else if (*status != index)
-        {
-            ft_printf("Some %s error!\n", (index == 1 ? "comment" : "order"));
-            ft_exit();
-        }
+            ft_exit_number_line(ORDER_ERR, (index == 1 ? "comment" : "order"));
     }
 }
 
@@ -86,18 +95,33 @@ char *ft_deletecomment(char *line)
     return (line);
 }
 
+int     ft_get_next_line(int fd, char **line)
+{
+    int res;
+
+    free(*line);
+    res = get_next_line(fd, line);
+    if (res > 0)
+    {
+        g_line_counter++;
+        g_file.content = ft_strjoinfreefirstln(g_file.content, *line);
+        *line = ft_deletecomment(*line);
+    }
+    return (res);
+}
+
+
 void	ft_to_assembler(char *filename)
 {
 	char	*line;
-	int		status; // (-1) - nothing, 0 - name, 1 - comment, 2 - lines
+	int		status;
 	int     fd;
 
 	status = -1;
     fd = ft_open(filename);
-	while (get_next_line(fd, &line) > 0)
+    line = ft_strdup("start");
+	while (ft_get_next_line(fd, &line) > 0)
 	{
-        g_file.content = ft_strjoinfreefirstln(g_file.content, line);
-        line = ft_deletecomment(line);
 		if (ft_strstr(line, NAME_CMD_STRING) || g_file.name->line_end == 0)
 		{
             ft_changestatus(0, &status);
@@ -106,8 +130,6 @@ void	ft_to_assembler(char *filename)
 		else if (ft_strstr(line, COMMENT_CMD_STRING) || g_file.comment->line_end == 0)
 		{
             ft_changestatus(1, &status);
-			//pleas add different error messages!!!!!!! For name and comment
-            // write error messages to STD ERROR!!!
 			ft_addsequence(line, g_file.comment);
 		}
 		else if (!ft_empty_or_comment(line))
@@ -140,6 +162,9 @@ void	ft_setup(void)
 	g_file.head = NULL;
     g_haslabel = FALSE;
     g_curr_label = NULL;
+    g_line_counter = 0;
+    g_output_name = NULL;
+
 }
 
 int     ft_countargsize(t_label *label, t_comline *command)
@@ -176,7 +201,6 @@ int     ft_countargsize(t_label *label, t_comline *command)
                 flag = 0;
             }
         }
-
         i++;
     }
     return (res);
@@ -206,41 +230,39 @@ int    ft_findfilesize(void)
 char    *ft_validname(char *name)
 {
     if (!ft_hassuffix(name, ".s"))
-    {
-        ft_putstr_fd("Can't read source file ", 2);
-        ft_putstr_fd(name, 2);
-        ft_putstr_fd("\n", 2);
-        ft_exit();
-    }
+        ft_exit_number(BAD_SOURCE_FILE_EXT, name);
     return (name);
 }
 
-
-// It will read the assembly’s code processed from the file .s given as argument, and write the resulting bytecode in a file named same as the argument by replacing the extension .s by .cor.
-// In case of an error, you will need to display a relevant message on the standard error output and not create the .cor file.
-
 int		main(int argc, char **argv)
 {
-	int asm_index;
-//    int i;
+    pid_t newp;
+    int i;
 
-    //ples see assembler errors at excel file!
 	if (argc == 1)
-		ft_printf("Usage: ./asm [-a] <sourcefile.s>\n -a : Instead of creating a .cor file, outputs a stripped and "
-						  "annotated version of the code to the standard output\n");
+        ft_exit_number(USAGE, NULL);
 	else
 	{
-//        i = 1;
-//        while (i < argc)
-//        {
-            ft_setup();
-            asm_index = argc - 1;
-            g_file.file_name = ft_validname(argv[asm_index]);
-            ft_to_assembler(argv[asm_index]);
-            g_file.file_size = ft_findfilesize();
-            ft_write();
-//        }
+        i = 1;
+        while (i < argc)
+        {
+//            newp = fork();
+//            if (newp < 0)
+//                ft_exit();
+//            if (newp == 0)
+//            {
+                ft_setup();
+                g_file.file_name = ft_validname(argv[i]);
+                ft_to_assembler(argv[i]);
+                g_file.file_size = ft_findfilesize();
+//            while (1);
+                ft_write();
+            while (1);
+                ft_printf_fd(1, "Writing output program to %s\n", g_output_name);
+                ft_exit();
+//            }
+            i++;
+        }
 	}
-//    while(1);
 	return (0);
 }

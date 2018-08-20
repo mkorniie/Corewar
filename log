@@ -3,88 +3,96 @@ TO FIX:
 
 1) Слитное написание Label и команды - FIXED NEEDS TEST ON ALL CHAMPS
 2) Слитное команды и процент - FIXED NEEDS TEST ON ALL CHAMPS
- - Overflow
-3) Что если label уже существует?
-4) ОШИБКИ:
-	- в STD_ERR
-	- По стандарту?
+
+3) Что если label уже существует? - FIXED NEEDS TEST ON ALL CHAMPS - 20 min (10:43)
+
+4) Overflow - semifixed - no segfault - NEDS TESTING - 3 h including dinner (1:41)
+
+5) ОШИБКИ:
+	- в STD_ERR:
+		- сделать новый fd_printf и пофиксить в нем ошибки - 20 min (2:01)
+	- По стандарту? - I think we can skip that
 	- ЗАПИСАТЬ ФИНАЛЬНЫЙ ВЫВОД: успешно записан в файл...
-	- убрать мои printf
-5) Лики
-6) Норма
-7) Бонусы
+	- убрать мои printf - 1h (2:52) + 40m (3:39)
+6) Лики - DONE
+7) Норма
+8) Бонусы:
+	- несколько файлов - DONE
+	- открывать папку
+9) УБРАТЬ МОЕ ПЕРЕПИСАННОЕ НАЗВАНИЕ ФАЙЛА
+10) Makefile - чтоб работало()
 
 
 _______________________________
 zork.s - checked
-Backward.s - checked
+Backward.s - checked DOUBLE
 Kittystrophic.s - checked
-jumper.s - checked
+jumper.s - checked DOUBLE
 ______________________________
-42.s - checked
-barriere.s - checked
-Car.s - checked
-Death.s - checked (must be error)
-ex.s - checked
-Gargant.s - checked
-lde.s - checked (must be error)
-leeloo.s  - checked (must be error)
-mat.s -  - checked (must be error)
-maxidef.s - checked
-mortel.s - checked
-new.s - checked (must be error)
-Octobre_Rouge_V4.2.s - checked
-slider2.s - checked
-toto.s - checked
+42.s - checked - DOUBLE
+barriere.s - checked DOUBLE
+Car.s - checked DOUBLE
+Death.s - checked (must be error) DOUBLE
+ex.s - checked DOUBLE
+Gargant.s - checked DOUBLE
+lde.s - checked (must be error) DOUBLE
+leeloo.s  - checked (must be error) DOUBLE
+mat.s -  - checked (must be error) DOUBLE
+maxidef.s - checked DOUBLE
+mortel.s - checked DOUBLE
+new.s - checked (must be error) DOUBLE
+Octobre_Rouge_V4.2.s - checked DOUBLE
+slider2.s - checked DOUBLE
+toto.s - checked DOUBLE
 ______________________________
 bee_gees.s - непонятно с комментарием - сказали слать к черту :)
-bigzork.s - checked
-fluttershy.s - checked
-helltrain.s - checked
-turtle.s - checked
-zork.s - checked
+bigzork.s - checked DOUBLE
+fluttershy.s - checked DOUBLE
+helltrain.s - checked DOUBLE
+turtle.s - checked DOUBLE
+zork.s - checked DOUBLE
 ______________________________
 2014:
-sam_2.0.s - checked
-doge.s - checked
-Rainbow_dash - checked (there is a wrong comm sign there)
-youforkmytralala - checked
-big_feet - work with overflow???
-loose.s - checked
-mandragore.s - checked
-gedeon.s - checked
-terminator.s - checked
-ultimate-surrender.s - (uses different comments) checked
-.s - checked
-salamahenagalabadoun.s - checked
-Machine-gun.s - checked
-corelol.s - checked
-MarinaKing.s - checked
-Kappas - checked
-Wall.s - checked
-Misaka_Mikoto.s - checked
-Varimathras.s - checked
-justin_bee.s - checked
-_honeybadger.s - checked
-skynet.s - checked
-live.s - checked
-meowluigi.s - checked
-dubo.s - checked
-jinx.s - checked
-THUNDER.s - checked
-Asombra.s - checked
-littlepuppy.s - checked
-champ.s - checked
-darksasuke.s - checked
-casimir.s - checked
+sam_2.0.s - checked DOUBLE
+doge.s - checked DOUBLE
+Rainbow_dash - checked (there is a wrong comm sign there) ?
+youforkmytralala - checked DOUBLE
+big_feet - work with overflow??? DOUBLE
+loose.s - checked DOUBLE
+mandragore.s - checked DOUBLE
+gedeon.s - checked DOUBLE
+terminator.s - checked DOUBLE
+ultimate-surrender.s - (uses different comments) checked ? 
+.s - checked DOUBLE
+salamahenagalabadoun.s - checked DOUBLE
+Machine-gun.s - checked DOUBLE
+corelol.s - checked DOUBLE
+MarinaKing.s - checked DOUBLE
+Kappas - checked DOUBLE
+Wall.s - checked DOUBLE
+Misaka_Mikoto.s - checked ?
+Varimathras.s - checked DOUBLE
+justin_bee.s - checked DOUBLE
+_honeybadger.s - checked DOUBLE
+skynet.s - checked DOUBLE
+live.s - checked DOUBLE
+meowluigi.s - checked DOUBLE
+dubo.s - checked DOUBLE
+jinx.s - checked DOUBLE
+THUNDER.s - checked DOUBLE
+Asombra.s - checked DOUBLE
+littlepuppy.s - checked DOUBLE
+champ.s - checked ?
+darksasuke.s - checked DOUBLE
+casimir.s - checked DOUBLE
 _______________________________
 2017:
----FIXED: Explosive_Kitty.s - same stuff with command and label written together; checked!
-ultima.s - checked
-gateau.s - checked
-mise_a_jour_windows95.s - checked
----FIXED: run_Kitty_RUN.s - same stuff with command and label written together; checked!
-overwatch.s - checked
-Douceur_power.s - checked!
+---FIXED: Explosive_Kitty.s - same stuff with command and label written together; checked! DOUBLE
+ultima.s - checked DOUBLE
+gateau.s - checked DOUBLE
+mise_a_jour_windows95.s - checked ?
+---FIXED: run_Kitty_RUN.s - same stuff with command and label written together; checked! DOUBLE
+overwatch.s - checked DOUBLE
+Douceur_power.s - checked! DOUBLE
 
 _______________________

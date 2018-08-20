@@ -23,23 +23,32 @@ char *ft_quotetrim(char *raw_name, t_declare *glob_struct)
 	{
 		glob_struct->line_end = 1;
 		if (quote_char[1] != '\0')
-		{
-			ft_printf("Some syntax error in your bot name. You've put something after quotes!\n");
-			ft_exit();
-		}
+			ft_exit_number_line(BOT_NAME_ERR, NULL);
 		line_len = ft_strlen(res);
 		res = ft_strsub(raw_name, 1, line_len - 1);
-		ft_printf("Yaaay! The new name (the whole) is %s\n", res);
 		return (res);
 	}
 	glob_struct->line_end = 0;
 	res = ft_strdup(res);
-	ft_printf("Yaaay! The new name (a part) is %s\n", res);
 	return (res);
+}
+
+void	ft_freechararr(char **arr)
+{
+	int i;
+
+	i = 0;
+	while (arr[i])
+	{
+		free(arr[i]);
+		i++;
+	}
+	free(arr);
 }
 
 void	ft_checkfirstline(char *line, t_declare *glob_struct)
 {
+	//leaks free
 	char **split;
 	char *tmp;
 	char *name;
@@ -47,10 +56,7 @@ void	ft_checkfirstline(char *line, t_declare *glob_struct)
 
 	split = ft_sepsplit(line, " \t");
 	if (ft_chararrlen(split) == 1)
-	{
-		ft_printf("Some error when no name string\n");
-		ft_exit();
-	}
+		ft_exit_number_line(NO_NAME, NULL);
 	if (ft_strequ(split[0], glob_struct->cmd_string))
 	{
 		if (split[1][0] == '\"')
@@ -59,19 +65,28 @@ void	ft_checkfirstline(char *line, t_declare *glob_struct)
 			len = ft_strlen(line) - ft_strlen(tmp) - 1;
 			name = ft_quotetrim(line + len + 1, glob_struct);
 			glob_struct->line = ft_strjoinfreefirst(glob_struct->line, name);
-			ft_printf("Now g_file.%s is %s\n", glob_struct->name, glob_struct->line);
+			free(name);
 		}
 		else
-		{
-			ft_printf("Some error when name is not in quotes or whatever\n");
-			ft_exit();
-		}
+			ft_exit_number_line(NAME_QUOTE_ERR, NULL);
 	}
 	else
+		ft_exit_number_line(NO_NAME_TAG, line);
+	ft_freechararr(split);
+}
+
+int		ft_invalidsymbafterquote(char *afterquote)
+{
+	int i;
+
+	i = 0;
+	while (afterquote[i] != '\0')
 	{
-		ft_printf("Some error when no name tag\n");
-		ft_exit();
+		if (ft_strchr(" \t", afterquote[i]) == NULL)
+			return (TRUE);
+		i++;
 	}
+	return (FALSE);
 }
 
 char	*ft_addline(char *line, t_declare *glob_struct)
@@ -83,18 +98,13 @@ char	*ft_addline(char *line, t_declare *glob_struct)
 	if ((quote_char = ft_strchr(line, '"')) != NULL)
 	{
 		glob_struct->line_end = 1;
-		if (quote_char[1] != '\0')
-		{
-			ft_printf("Some syntax error in your bot name. You've put something after quotes!\n");
-			ft_exit();
-		}
+		if (ft_invalidsymbafterquote(quote_char + 1))
+			ft_exit_number_line(BOT_NAME_ERR, NULL);
 		line_len = ft_strlen(line);
 		res = ft_strsub(line, 0, line_len - 1);
-		ft_printf("Yaaay! The new name (the whole) is \"%s\"\n", res);
 		return (res);
 	}
 	res = ft_strdup(line);
-	ft_printf("Yaaay! The new name (a part) is \"%s\"\n", res);
 	return (res);
 }
 
@@ -102,10 +112,7 @@ void    ft_lengthcheck(t_declare *glob_struct)
 {
 	glob_struct->length = ft_strlen(glob_struct->line);
     if (glob_struct->length > glob_struct->max_length)
-    {
-        ft_printf("Champion %s too long (Max length %d)\n", glob_struct->name, glob_struct->max_length);
-        ft_exit();
-    }
+        ft_exit_number_line(LONG_NAME_ERR, glob_struct->name);
 }
 
 void	ft_addsequence(char *read_line, t_declare *glob_struct)
@@ -119,7 +126,7 @@ void	ft_addsequence(char *read_line, t_declare *glob_struct)
 		res = ft_addline(read_line, glob_struct);
 		glob_struct->line = ft_strjoinfreefirst(glob_struct->line, "\n");
 		glob_struct->line = ft_strjoinfreefirst(glob_struct->line, res);
-		ft_printf("Now g_file.name is \"%s\"\n", glob_struct->line);
+		free(res);
 	}
     ft_lengthcheck(glob_struct);
 }

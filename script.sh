@@ -1,3 +1,9 @@
-/Users/mkorniie/Documents/CoreWar/cmake-build-debug/othername.cor > diff/diff_my
-$1 > diff/diff_orig
-diff diff/diff_my diff/diff_orig
+MY_ASM="$HOME/Documents/CoreWar/cmake-build-debug/CoreWar"
+ASM="$HOME/Downloads/vm_champs/asm"
+
+# while [[  ]] ; do
+
+${MY_ASM} $1.s; ${ASM} $1.s
+xxd $1.cor > a1 && xxd $1.cor > a2 && diff a1 a2
+
+# end;

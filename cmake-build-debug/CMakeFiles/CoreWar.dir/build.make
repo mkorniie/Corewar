@@ -57,772 +57,772 @@ include CMakeFiles/CoreWar.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CoreWar.dir/flags.make
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o: ../ft_printf/extract_func_0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_0.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o: ../ft_printf_fd/extract_func_0.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_0.c
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_0.c > CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_0.c > CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_0.c -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_0.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o: ../ft_printf/extract_func_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_1.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o: ../ft_printf_fd/extract_func_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_1.c
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_1.c > CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_1.c > CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_1.c -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_1.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o: ../ft_printf/extract_func_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_2.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o: ../ft_printf_fd/extract_func_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_2.c
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_2.c > CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_2.c > CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_2.c -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_2.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o: ../ft_printf/extract_func_3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_3.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o: ../ft_printf_fd/extract_func_3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_3.c
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_3.c > CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_3.c > CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_3.c -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_3.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o: ../ft_printf/extract_func_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_4.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o: ../ft_printf_fd/extract_func_4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_4.c
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_4.c > CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_4.c > CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_4.c -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_4.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o: ../ft_printf/extract_func_5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_5.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o: ../ft_printf_fd/extract_func_5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_5.c
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_5.c > CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_5.c > CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_5.c -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_5.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o: ../ft_printf/extract_func_6.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_6.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o: ../ft_printf_fd/extract_func_6.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_6.c
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_6.c > CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_6.c > CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_6.c -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_6.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o: ../ft_printf/extract_func_7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_7.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o: ../ft_printf_fd/extract_func_7.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_7.c
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_7.c > CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_7.c > CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_7.c -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_7.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o: ../ft_printf/extract_func_8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_8.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o: ../ft_printf_fd/extract_func_8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_8.c
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_8.c > CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_8.c > CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_8.c -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_8.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o: ../ft_printf/extract_func_9.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_9.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o: ../ft_printf_fd/extract_func_9.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_9.c
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_9.c > CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_9.c > CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/extract_func_9.c -o CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/extract_func_9.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o: ../ft_printf/ft_addustring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_addustring.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o: ../ft_printf_fd/ft_addustring.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_addustring.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_addustring.c > CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_addustring.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_addustring.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_addustring.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o: ../ft_printf/ft_chartostr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_chartostr.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o: ../ft_printf_fd/ft_chartostr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_chartostr.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_chartostr.c > CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_chartostr.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_chartostr.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_chartostr.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o: ../ft_printf/ft_convert.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_convert.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o: ../ft_printf_fd/ft_convert.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_convert.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_convert.c > CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_convert.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_convert.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_convert.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o: ../ft_printf/ft_ditoap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_ditoap.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o: ../ft_printf_fd/ft_ditoap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_ditoap.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_ditoap.c > CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_ditoap.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_ditoap.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_ditoap.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o: ../ft_printf/ft_fieldflags.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_fieldflags.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o: ../ft_printf_fd/ft_fieldflags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_fieldflags.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_fieldflags.c > CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_fieldflags.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_fieldflags.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_fieldflags.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o: ../ft_printf/ft_fieldflags_additional.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_fieldflags_additional.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o: ../ft_printf_fd/ft_fieldflags_additional.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_fieldflags_additional.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_fieldflags_additional.c > CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_fieldflags_additional.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_fieldflags_additional.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_fieldflags_additional.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o: ../ft_printf/ft_flags.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_flags.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o: ../ft_printf_fd/ft_flags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_flags.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_flags.c > CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_flags.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_flags.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_flags.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o: ../ft_printf/ft_freearr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_freearr.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o: ../ft_printf_fd/ft_freearr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_freearr.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_freearr.c > CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_freearr.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_freearr.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_freearr.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o: ../ft_printf/ft_litoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_litoa.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o: ../ft_printf_fd/ft_litoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_litoa.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_litoa.c > CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_litoa.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_litoa.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_litoa.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o: ../ft_printf/ft_malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_malloc.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o: ../ft_printf_fd/ft_malloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_malloc.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_malloc.c > CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_malloc.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_malloc.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_malloc.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o: ../ft_printf/ft_modfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_modfunc.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o: ../ft_printf_fd/ft_modfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_modfunc.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_modfunc.c > CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_modfunc.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_modfunc.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_modfunc.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o: ../ft_printf/ft_parce.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_parce.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o: ../ft_printf_fd/ft_parce.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_parce.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_parce.c > CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_parce.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_parce.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_parce.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o: ../ft_printf/ft_powl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_powl.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o: ../ft_printf_fd/ft_powl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_powl.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_powl.c > CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_powl.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_powl.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_powl.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o: ../ft_printf/ft_presicion.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_presicion.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o: ../ft_printf_fd/ft_presicion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_presicion.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_presicion.c > CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_presicion.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_presicion.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_presicion.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o: ../ft_printf/ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_printf.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o: ../ft_printf_fd/ft_printf_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_printf_fd.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_printf.c > CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_printf_fd.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_printf.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_printf_fd.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o: ../ft_printf/ft_strdupfree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_strdupfree.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o: ../ft_printf_fd/ft_strdupfree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_strdupfree.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_strdupfree.c > CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_strdupfree.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_strdupfree.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_strdupfree.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o: ../ft_printf/ft_strjoinfree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_strjoinfree.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o: ../ft_printf_fd/ft_strjoinfree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_strjoinfree.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_strjoinfree.c > CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_strjoinfree.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_strjoinfree.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_strjoinfree.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o: ../ft_printf/ft_strndupfree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_strndupfree.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o: ../ft_printf_fd/ft_strndupfree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_strndupfree.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_strndupfree.c > CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_strndupfree.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_strndupfree.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_strndupfree.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o: ../ft_printf/ft_ubase.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_ubase.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o: ../ft_printf_fd/ft_ubase.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_ubase.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_ubase.c > CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_ubase.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_ubase.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_ubase.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o: ../ft_printf/ft_ulitoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_ulitoa.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o: ../ft_printf_fd/ft_ulitoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_ulitoa.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_ulitoa.c > CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_ulitoa.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_ulitoa.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_ulitoa.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o: ../ft_printf/ft_unicode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_unicode.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o: ../ft_printf_fd/ft_unicode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_unicode.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_unicode.c > CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_unicode.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_unicode.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_unicode.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o: ../ft_printf/ft_validflag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf/ft_validflag.c
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o: ../ft_printf_fd/ft_validflag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_validflag.c
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf/ft_validflag.c > CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.i
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_validflag.c > CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.i
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf/ft_validflag.c -o CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.s
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_printf_fd/ft_validflag.c -o CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.s
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o.provides
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o.provides: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o
+CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o
 
 
 CMakeFiles/CoreWar.dir/libft/ft_abs.c.o: CMakeFiles/CoreWar.dir/flags.make
@@ -2361,28 +2361,28 @@ CMakeFiles/CoreWar.dir/libft/ft_toupper.c.o.provides: CMakeFiles/CoreWar.dir/lib
 CMakeFiles/CoreWar.dir/libft/ft_toupper.c.o.provides.build: CMakeFiles/CoreWar.dir/libft/ft_toupper.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_labellist.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_labellist.c.o: ../ft_labellist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/CoreWar.dir/ft_labellist.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_labellist.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_labellist.c
+CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o: ../utils/ft_chararrlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_chararrlen.c
 
-CMakeFiles/CoreWar.dir/ft_labellist.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_labellist.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_labellist.c > CMakeFiles/CoreWar.dir/ft_labellist.c.i
+CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/utils/ft_chararrlen.c > CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.i
 
-CMakeFiles/CoreWar.dir/ft_labellist.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_labellist.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_labellist.c -o CMakeFiles/CoreWar.dir/ft_labellist.c.s
+CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/utils/ft_chararrlen.c -o CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.s
 
-CMakeFiles/CoreWar.dir/ft_labellist.c.o.requires:
+CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_labellist.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_labellist.c.o.provides: CMakeFiles/CoreWar.dir/ft_labellist.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_labellist.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_labellist.c.o.provides
+CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.provides: CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_labellist.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_labellist.c.o
+CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o
 
 
 CMakeFiles/CoreWar.dir/utils/ft_exit.c.o: CMakeFiles/CoreWar.dir/flags.make
@@ -2433,81 +2433,9 @@ CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o.provides: CMakeFiles/CoreWar.dir/u
 CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o
 
 
-CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o: ../utils/ft_sepsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_sepsplit.c
-
-CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/utils/ft_sepsplit.c > CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.i
-
-CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/utils/ft_sepsplit.c -o CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.s
-
-CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.requires:
-
-.PHONY : CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.requires
-
-CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.provides: CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.provides
-
-CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o
-
-
-CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o: ../utils/ft_strjoinfreefirst.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_strjoinfreefirst.c
-
-CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/utils/ft_strjoinfreefirst.c > CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.i
-
-CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/utils/ft_strjoinfreefirst.c -o CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.s
-
-CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.requires:
-
-.PHONY : CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.requires
-
-CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.provides: CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.provides
-
-CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o
-
-
-CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o: ../utils/ft_chararrlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_chararrlen.c
-
-CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/utils/ft_chararrlen.c > CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.i
-
-CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/utils/ft_chararrlen.c -o CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.s
-
-CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.requires:
-
-.PHONY : CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.requires
-
-CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.provides: CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.provides
-
-CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o
-
-
 CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o: CMakeFiles/CoreWar.dir/flags.make
 CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o: ../utils/ft_hexlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_hexlen.c
 
 CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.i: cmake_force
@@ -2531,7 +2459,7 @@ CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o.provides.build: CMakeFiles/CoreWar.di
 
 CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o: CMakeFiles/CoreWar.dir/flags.make
 CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o: ../utils/ft_intarrlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_intarrlen.c
 
 CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.i: cmake_force
@@ -2551,6 +2479,78 @@ CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o.provides: CMakeFiles/CoreWar.dir/u
 .PHONY : CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o.provides
 
 CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o
+
+
+CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o: ../utils/ft_isnumline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_isnumline.c
+
+CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/utils/ft_isnumline.c > CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.i
+
+CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/utils/ft_isnumline.c -o CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.s
+
+CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.requires:
+
+.PHONY : CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.requires
+
+CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.provides: CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.provides
+
+CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o
+
+
+CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o: ../utils/ft_latoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_latoi.c
+
+CMakeFiles/CoreWar.dir/utils/ft_latoi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/utils/ft_latoi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/utils/ft_latoi.c > CMakeFiles/CoreWar.dir/utils/ft_latoi.c.i
+
+CMakeFiles/CoreWar.dir/utils/ft_latoi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/utils/ft_latoi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/utils/ft_latoi.c -o CMakeFiles/CoreWar.dir/utils/ft_latoi.c.s
+
+CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o.requires:
+
+.PHONY : CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o.requires
+
+CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o.provides: CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o.provides
+
+CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o
+
+
+CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o: ../utils/ft_lineisint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_lineisint.c
+
+CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/utils/ft_lineisint.c > CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.i
+
+CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/utils/ft_lineisint.c -o CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.s
+
+CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.requires:
+
+.PHONY : CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.requires
+
+CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.provides: CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.provides
+
+CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o
 
 
 CMakeFiles/CoreWar.dir/utils/ft_mod.c.o: CMakeFiles/CoreWar.dir/flags.make
@@ -2577,9 +2577,57 @@ CMakeFiles/CoreWar.dir/utils/ft_mod.c.o.provides: CMakeFiles/CoreWar.dir/utils/f
 CMakeFiles/CoreWar.dir/utils/ft_mod.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_mod.c.o
 
 
+CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o: ../utils/ft_sepsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_sepsplit.c
+
+CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/utils/ft_sepsplit.c > CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.i
+
+CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/utils/ft_sepsplit.c -o CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.s
+
+CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.requires:
+
+.PHONY : CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.requires
+
+CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.provides: CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.provides
+
+CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o
+
+
+CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o: ../utils/ft_strjoinfreefirst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_strjoinfreefirst.c
+
+CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/utils/ft_strjoinfreefirst.c > CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.i
+
+CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/utils/ft_strjoinfreefirst.c -o CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.s
+
+CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.requires:
+
+.PHONY : CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.requires
+
+CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.provides: CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.provides
+
+CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o
+
+
 CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o: CMakeFiles/CoreWar.dir/flags.make
 CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o: ../utils/ft_text_to_hex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_text_to_hex.c
 
 CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.i: cmake_force
@@ -2601,81 +2649,9 @@ CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o.provides: CMakeFiles/CoreWar.dir
 CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o
 
 
-CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o: ../utils/ft_printchararr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_printchararr.c
-
-CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/utils/ft_printchararr.c > CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.i
-
-CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/utils/ft_printchararr.c -o CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.s
-
-CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o.requires:
-
-.PHONY : CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o.requires
-
-CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o.provides: CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o.provides
-
-CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o
-
-
-CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o: ../utils/ft_isnumline.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_isnumline.c
-
-CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/utils/ft_isnumline.c > CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.i
-
-CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/utils/ft_isnumline.c -o CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.s
-
-CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.requires:
-
-.PHONY : CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.requires
-
-CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.provides: CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.provides
-
-CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o
-
-
-CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o: ../utils/ft_lineisint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_lineisint.c
-
-CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/utils/ft_lineisint.c > CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.i
-
-CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/utils/ft_lineisint.c -o CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.s
-
-CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.requires:
-
-.PHONY : CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.requires
-
-CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.provides: CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.provides
-
-CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.provides.build: CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o
-
-
 CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o: CMakeFiles/CoreWar.dir/flags.make
 CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o: ../utils/ft_utils_to_split.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o   -c /Users/mkorniie/Documents/CoreWar/utils/ft_utils_to_split.c
 
 CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.i: cmake_force
@@ -2699,7 +2675,7 @@ CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o.provides.build: CMakeFiles/Co
 
 CMakeFiles/CoreWar.dir/asm.c.o: CMakeFiles/CoreWar.dir/flags.make
 CMakeFiles/CoreWar.dir/asm.c.o: ../asm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/CoreWar.dir/asm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/CoreWar.dir/asm.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/asm.c.o   -c /Users/mkorniie/Documents/CoreWar/asm.c
 
 CMakeFiles/CoreWar.dir/asm.c.i: cmake_force
@@ -2723,7 +2699,7 @@ CMakeFiles/CoreWar.dir/asm.c.o.provides.build: CMakeFiles/CoreWar.dir/asm.c.o
 
 CMakeFiles/CoreWar.dir/ft_argvalidate.c.o: CMakeFiles/CoreWar.dir/flags.make
 CMakeFiles/CoreWar.dir/ft_argvalidate.c.o: ../ft_argvalidate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/CoreWar.dir/ft_argvalidate.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/CoreWar.dir/ft_argvalidate.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_argvalidate.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_argvalidate.c
 
 CMakeFiles/CoreWar.dir/ft_argvalidate.c.i: cmake_force
@@ -2745,57 +2721,9 @@ CMakeFiles/CoreWar.dir/ft_argvalidate.c.o.provides: CMakeFiles/CoreWar.dir/ft_ar
 CMakeFiles/CoreWar.dir/ft_argvalidate.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_argvalidate.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_readname.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_readname.c.o: ../ft_readname.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/CoreWar.dir/ft_readname.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_readname.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_readname.c
-
-CMakeFiles/CoreWar.dir/ft_readname.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_readname.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_readname.c > CMakeFiles/CoreWar.dir/ft_readname.c.i
-
-CMakeFiles/CoreWar.dir/ft_readname.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_readname.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_readname.c -o CMakeFiles/CoreWar.dir/ft_readname.c.s
-
-CMakeFiles/CoreWar.dir/ft_readname.c.o.requires:
-
-.PHONY : CMakeFiles/CoreWar.dir/ft_readname.c.o.requires
-
-CMakeFiles/CoreWar.dir/ft_readname.c.o.provides: CMakeFiles/CoreWar.dir/ft_readname.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_readname.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_readname.c.o.provides
-
-CMakeFiles/CoreWar.dir/ft_readname.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_readname.c.o
-
-
-CMakeFiles/CoreWar.dir/ft_readcommands.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_readcommands.c.o: ../ft_readcommands.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/CoreWar.dir/ft_readcommands.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_readcommands.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_readcommands.c
-
-CMakeFiles/CoreWar.dir/ft_readcommands.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_readcommands.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_readcommands.c > CMakeFiles/CoreWar.dir/ft_readcommands.c.i
-
-CMakeFiles/CoreWar.dir/ft_readcommands.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_readcommands.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_readcommands.c -o CMakeFiles/CoreWar.dir/ft_readcommands.c.s
-
-CMakeFiles/CoreWar.dir/ft_readcommands.c.o.requires:
-
-.PHONY : CMakeFiles/CoreWar.dir/ft_readcommands.c.o.requires
-
-CMakeFiles/CoreWar.dir/ft_readcommands.c.o.provides: CMakeFiles/CoreWar.dir/ft_readcommands.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_readcommands.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_readcommands.c.o.provides
-
-CMakeFiles/CoreWar.dir/ft_readcommands.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_readcommands.c.o
-
-
 CMakeFiles/CoreWar.dir/ft_file.c.o: CMakeFiles/CoreWar.dir/flags.make
 CMakeFiles/CoreWar.dir/ft_file.c.o: ../ft_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/CoreWar.dir/ft_file.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/CoreWar.dir/ft_file.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_file.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_file.c
 
 CMakeFiles/CoreWar.dir/ft_file.c.i: cmake_force
@@ -2817,33 +2745,57 @@ CMakeFiles/CoreWar.dir/ft_file.c.o.provides: CMakeFiles/CoreWar.dir/ft_file.c.o.
 CMakeFiles/CoreWar.dir/ft_file.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_file.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_write.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_write.c.o: ../ft_write.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/CoreWar.dir/ft_write.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_write.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_write.c
+CMakeFiles/CoreWar.dir/ft_labellist.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_labellist.c.o: ../ft_labellist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/CoreWar.dir/ft_labellist.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_labellist.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_labellist.c
 
-CMakeFiles/CoreWar.dir/ft_write.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_write.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_write.c > CMakeFiles/CoreWar.dir/ft_write.c.i
+CMakeFiles/CoreWar.dir/ft_labellist.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_labellist.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_labellist.c > CMakeFiles/CoreWar.dir/ft_labellist.c.i
 
-CMakeFiles/CoreWar.dir/ft_write.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_write.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_write.c -o CMakeFiles/CoreWar.dir/ft_write.c.s
+CMakeFiles/CoreWar.dir/ft_labellist.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_labellist.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_labellist.c -o CMakeFiles/CoreWar.dir/ft_labellist.c.s
 
-CMakeFiles/CoreWar.dir/ft_write.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_labellist.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_write.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_labellist.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_write.c.o.provides: CMakeFiles/CoreWar.dir/ft_write.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_write.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_write.c.o.provides
+CMakeFiles/CoreWar.dir/ft_labellist.c.o.provides: CMakeFiles/CoreWar.dir/ft_labellist.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_labellist.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_labellist.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_write.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_write.c.o
+CMakeFiles/CoreWar.dir/ft_labellist.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_labellist.c.o
+
+
+CMakeFiles/CoreWar.dir/ft_labels.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_labels.c.o: ../ft_labels.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/CoreWar.dir/ft_labels.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_labels.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_labels.c
+
+CMakeFiles/CoreWar.dir/ft_labels.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_labels.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_labels.c > CMakeFiles/CoreWar.dir/ft_labels.c.i
+
+CMakeFiles/CoreWar.dir/ft_labels.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_labels.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_labels.c -o CMakeFiles/CoreWar.dir/ft_labels.c.s
+
+CMakeFiles/CoreWar.dir/ft_labels.c.o.requires:
+
+.PHONY : CMakeFiles/CoreWar.dir/ft_labels.c.o.requires
+
+CMakeFiles/CoreWar.dir/ft_labels.c.o.provides: CMakeFiles/CoreWar.dir/ft_labels.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_labels.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_labels.c.o.provides
+
+CMakeFiles/CoreWar.dir/ft_labels.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_labels.c.o
 
 
 CMakeFiles/CoreWar.dir/ft_printcode.c.o: CMakeFiles/CoreWar.dir/flags.make
 CMakeFiles/CoreWar.dir/ft_printcode.c.o: ../ft_printcode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/CoreWar.dir/ft_printcode.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/CoreWar.dir/ft_printcode.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_printcode.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_printcode.c
 
 CMakeFiles/CoreWar.dir/ft_printcode.c.i: cmake_force
@@ -2865,28 +2817,76 @@ CMakeFiles/CoreWar.dir/ft_printcode.c.o.provides: CMakeFiles/CoreWar.dir/ft_prin
 CMakeFiles/CoreWar.dir/ft_printcode.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_printcode.c.o
 
 
-CMakeFiles/CoreWar.dir/ft_labels.c.o: CMakeFiles/CoreWar.dir/flags.make
-CMakeFiles/CoreWar.dir/ft_labels.c.o: ../ft_labels.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/CoreWar.dir/ft_labels.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_labels.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_labels.c
+CMakeFiles/CoreWar.dir/ft_readcommands.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_readcommands.c.o: ../ft_readcommands.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/CoreWar.dir/ft_readcommands.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_readcommands.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_readcommands.c
 
-CMakeFiles/CoreWar.dir/ft_labels.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_labels.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_labels.c > CMakeFiles/CoreWar.dir/ft_labels.c.i
+CMakeFiles/CoreWar.dir/ft_readcommands.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_readcommands.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_readcommands.c > CMakeFiles/CoreWar.dir/ft_readcommands.c.i
 
-CMakeFiles/CoreWar.dir/ft_labels.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_labels.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_labels.c -o CMakeFiles/CoreWar.dir/ft_labels.c.s
+CMakeFiles/CoreWar.dir/ft_readcommands.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_readcommands.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_readcommands.c -o CMakeFiles/CoreWar.dir/ft_readcommands.c.s
 
-CMakeFiles/CoreWar.dir/ft_labels.c.o.requires:
+CMakeFiles/CoreWar.dir/ft_readcommands.c.o.requires:
 
-.PHONY : CMakeFiles/CoreWar.dir/ft_labels.c.o.requires
+.PHONY : CMakeFiles/CoreWar.dir/ft_readcommands.c.o.requires
 
-CMakeFiles/CoreWar.dir/ft_labels.c.o.provides: CMakeFiles/CoreWar.dir/ft_labels.c.o.requires
-	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_labels.c.o.provides.build
-.PHONY : CMakeFiles/CoreWar.dir/ft_labels.c.o.provides
+CMakeFiles/CoreWar.dir/ft_readcommands.c.o.provides: CMakeFiles/CoreWar.dir/ft_readcommands.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_readcommands.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_readcommands.c.o.provides
 
-CMakeFiles/CoreWar.dir/ft_labels.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_labels.c.o
+CMakeFiles/CoreWar.dir/ft_readcommands.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_readcommands.c.o
+
+
+CMakeFiles/CoreWar.dir/ft_readname.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_readname.c.o: ../ft_readname.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/CoreWar.dir/ft_readname.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_readname.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_readname.c
+
+CMakeFiles/CoreWar.dir/ft_readname.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_readname.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_readname.c > CMakeFiles/CoreWar.dir/ft_readname.c.i
+
+CMakeFiles/CoreWar.dir/ft_readname.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_readname.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_readname.c -o CMakeFiles/CoreWar.dir/ft_readname.c.s
+
+CMakeFiles/CoreWar.dir/ft_readname.c.o.requires:
+
+.PHONY : CMakeFiles/CoreWar.dir/ft_readname.c.o.requires
+
+CMakeFiles/CoreWar.dir/ft_readname.c.o.provides: CMakeFiles/CoreWar.dir/ft_readname.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_readname.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_readname.c.o.provides
+
+CMakeFiles/CoreWar.dir/ft_readname.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_readname.c.o
+
+
+CMakeFiles/CoreWar.dir/ft_write.c.o: CMakeFiles/CoreWar.dir/flags.make
+CMakeFiles/CoreWar.dir/ft_write.c.o: ../ft_write.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mkorniie/Documents/CoreWar/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/CoreWar.dir/ft_write.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CoreWar.dir/ft_write.c.o   -c /Users/mkorniie/Documents/CoreWar/ft_write.c
+
+CMakeFiles/CoreWar.dir/ft_write.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CoreWar.dir/ft_write.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mkorniie/Documents/CoreWar/ft_write.c > CMakeFiles/CoreWar.dir/ft_write.c.i
+
+CMakeFiles/CoreWar.dir/ft_write.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CoreWar.dir/ft_write.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mkorniie/Documents/CoreWar/ft_write.c -o CMakeFiles/CoreWar.dir/ft_write.c.s
+
+CMakeFiles/CoreWar.dir/ft_write.c.o.requires:
+
+.PHONY : CMakeFiles/CoreWar.dir/ft_write.c.o.requires
+
+CMakeFiles/CoreWar.dir/ft_write.c.o.provides: CMakeFiles/CoreWar.dir/ft_write.c.o.requires
+	$(MAKE) -f CMakeFiles/CoreWar.dir/build.make CMakeFiles/CoreWar.dir/ft_write.c.o.provides.build
+.PHONY : CMakeFiles/CoreWar.dir/ft_write.c.o.provides
+
+CMakeFiles/CoreWar.dir/ft_write.c.o.provides.build: CMakeFiles/CoreWar.dir/ft_write.c.o
 
 
 CMakeFiles/CoreWar.dir/get_next_line.c.o: CMakeFiles/CoreWar.dir/flags.make
@@ -2915,38 +2915,38 @@ CMakeFiles/CoreWar.dir/get_next_line.c.o.provides.build: CMakeFiles/CoreWar.dir/
 
 # Object files for target CoreWar
 CoreWar_OBJECTS = \
-"CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o" \
 "CMakeFiles/CoreWar.dir/libft/ft_abs.c.o" \
 "CMakeFiles/CoreWar.dir/libft/ft_atoi.c.o" \
 "CMakeFiles/CoreWar.dir/libft/ft_bzero.c.o" \
@@ -3011,65 +3011,65 @@ CoreWar_OBJECTS = \
 "CMakeFiles/CoreWar.dir/libft/ft_strtrim.c.o" \
 "CMakeFiles/CoreWar.dir/libft/ft_tolower.c.o" \
 "CMakeFiles/CoreWar.dir/libft/ft_toupper.c.o" \
-"CMakeFiles/CoreWar.dir/ft_labellist.c.o" \
+"CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o" \
 "CMakeFiles/CoreWar.dir/utils/ft_exit.c.o" \
 "CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o" \
-"CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o" \
-"CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o" \
-"CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o" \
 "CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o" \
 "CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o" \
-"CMakeFiles/CoreWar.dir/utils/ft_mod.c.o" \
-"CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o" \
-"CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o" \
 "CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o" \
+"CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o" \
 "CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o" \
+"CMakeFiles/CoreWar.dir/utils/ft_mod.c.o" \
+"CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o" \
+"CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o" \
+"CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o" \
 "CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o" \
 "CMakeFiles/CoreWar.dir/asm.c.o" \
 "CMakeFiles/CoreWar.dir/ft_argvalidate.c.o" \
-"CMakeFiles/CoreWar.dir/ft_readname.c.o" \
-"CMakeFiles/CoreWar.dir/ft_readcommands.c.o" \
 "CMakeFiles/CoreWar.dir/ft_file.c.o" \
-"CMakeFiles/CoreWar.dir/ft_write.c.o" \
-"CMakeFiles/CoreWar.dir/ft_printcode.c.o" \
+"CMakeFiles/CoreWar.dir/ft_labellist.c.o" \
 "CMakeFiles/CoreWar.dir/ft_labels.c.o" \
+"CMakeFiles/CoreWar.dir/ft_printcode.c.o" \
+"CMakeFiles/CoreWar.dir/ft_readcommands.c.o" \
+"CMakeFiles/CoreWar.dir/ft_readname.c.o" \
+"CMakeFiles/CoreWar.dir/ft_write.c.o" \
 "CMakeFiles/CoreWar.dir/get_next_line.c.o"
 
 # External object files for target CoreWar
 CoreWar_EXTERNAL_OBJECTS =
 
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o
 CoreWar: CMakeFiles/CoreWar.dir/libft/ft_abs.c.o
 CoreWar: CMakeFiles/CoreWar.dir/libft/ft_atoi.c.o
 CoreWar: CMakeFiles/CoreWar.dir/libft/ft_bzero.c.o
@@ -3134,28 +3134,28 @@ CoreWar: CMakeFiles/CoreWar.dir/libft/ft_strsub.c.o
 CoreWar: CMakeFiles/CoreWar.dir/libft/ft_strtrim.c.o
 CoreWar: CMakeFiles/CoreWar.dir/libft/ft_tolower.c.o
 CoreWar: CMakeFiles/CoreWar.dir/libft/ft_toupper.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_labellist.c.o
+CoreWar: CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o
 CoreWar: CMakeFiles/CoreWar.dir/utils/ft_exit.c.o
 CoreWar: CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o
-CoreWar: CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o
-CoreWar: CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o
-CoreWar: CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o
 CoreWar: CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o
 CoreWar: CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o
-CoreWar: CMakeFiles/CoreWar.dir/utils/ft_mod.c.o
-CoreWar: CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o
-CoreWar: CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o
 CoreWar: CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o
+CoreWar: CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o
 CoreWar: CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o
+CoreWar: CMakeFiles/CoreWar.dir/utils/ft_mod.c.o
+CoreWar: CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o
+CoreWar: CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o
+CoreWar: CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o
 CoreWar: CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o
 CoreWar: CMakeFiles/CoreWar.dir/asm.c.o
 CoreWar: CMakeFiles/CoreWar.dir/ft_argvalidate.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_readname.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_readcommands.c.o
 CoreWar: CMakeFiles/CoreWar.dir/ft_file.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_write.c.o
-CoreWar: CMakeFiles/CoreWar.dir/ft_printcode.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_labellist.c.o
 CoreWar: CMakeFiles/CoreWar.dir/ft_labels.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_printcode.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_readcommands.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_readname.c.o
+CoreWar: CMakeFiles/CoreWar.dir/ft_write.c.o
 CoreWar: CMakeFiles/CoreWar.dir/get_next_line.c.o
 CoreWar: CMakeFiles/CoreWar.dir/build.make
 CoreWar: CMakeFiles/CoreWar.dir/link.txt
@@ -3167,38 +3167,38 @@ CMakeFiles/CoreWar.dir/build: CoreWar
 
 .PHONY : CMakeFiles/CoreWar.dir/build
 
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/extract_func_0.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/extract_func_1.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/extract_func_2.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/extract_func_3.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/extract_func_4.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/extract_func_5.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/extract_func_6.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/extract_func_7.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/extract_func_8.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/extract_func_9.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_addustring.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_chartostr.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_convert.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_ditoap.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_fieldflags_additional.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_flags.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_freearr.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_litoa.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_malloc.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_modfunc.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_parce.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_powl.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_presicion.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_printf.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_strdupfree.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_strjoinfree.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_strndupfree.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_ubase.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_ulitoa.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_unicode.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf/ft_validflag.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_0.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_1.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_2.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_3.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_4.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_5.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_6.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_7.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_8.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/extract_func_9.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_addustring.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_chartostr.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_convert.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ditoap.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_fieldflags_additional.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_flags.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_freearr.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_litoa.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_malloc.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_modfunc.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_parce.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_powl.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_presicion.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_printf_fd.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strdupfree.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strjoinfree.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_strndupfree.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ubase.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_ulitoa.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_unicode.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printf_fd/ft_validflag.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/libft/ft_abs.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/libft/ft_atoi.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/libft/ft_bzero.c.o.requires
@@ -3263,28 +3263,28 @@ CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/libft/ft_strsub.c.o.requ
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/libft/ft_strtrim.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/libft/ft_tolower.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/libft/ft_toupper.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_labellist.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_exit.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_hassuffix.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_chararrlen.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_hexlen.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_intarrlen.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_mod.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_printchararr.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_isnumline.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_latoi.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_lineisint.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_mod.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_sepsplit.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_strjoinfreefirst.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_text_to_hex.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/utils/ft_utils_to_split.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/asm.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_argvalidate.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_readname.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_readcommands.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_file.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_write.c.o.requires
-CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printcode.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_labellist.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_labels.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_printcode.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_readcommands.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_readname.c.o.requires
+CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/ft_write.c.o.requires
 CMakeFiles/CoreWar.dir/requires: CMakeFiles/CoreWar.dir/get_next_line.c.o.requires
 
 .PHONY : CMakeFiles/CoreWar.dir/requires

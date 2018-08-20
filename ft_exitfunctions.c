@@ -12,21 +12,21 @@
 
 #include "asm.h"
 
-void    ft_exit_number(const char *format, char *option)
+void	ft_exit_number(const char *format, char *option)
 {
-    if (option != NULL) {
-        ft_printf_fd(2, format, option);
-    }
-    else
-    {
-        ft_printf_fd(2, format);
-        free(option);
-    }
-    ft_exit();
+	if (option != NULL) {
+		ft_printf_fd(2, format, option);
+	}
+	else
+	{
+		ft_printf_fd(2, format);
+		free(option);
+	}
+	ft_exit();
 }
 
-void    ft_exit_number_line(const char *format, char *option)
+void	ft_exit_number_line(const char *format, char *option)
 {
-    ft_printf_fd(2, "LINE %d: ", g_line_counter);
-    ft_exit_number(format, option);
+	ft_printf_fd(2, "LINE %d: ", g_line_counter);
+	ft_exit_number(format, option);
 }

@@ -19,7 +19,7 @@ void	ft_recurs(int *flag, t_label *label, t_comline *command, int i)
 	(*flag) = 0;
 }
 
-int     ft_countargsize(t_label *label, t_comline *command)
+int		ft_countargsize(t_label *label, t_comline *command)
 {
 	int			res;
 	int			i;

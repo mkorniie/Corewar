@@ -55,7 +55,8 @@ int			ft_get_cmd_byte(int op_index, char *line, int has_label)
 	arrlen -= (has_label == 1 ? 2 : 1);
 	if (arrlen == op_tab[op_index].n_of_args)
 	{
-		if ((args_byte = ft_arg_byte(no_sep_split, op_index, has_label + 1)) != 0)
+		args_byte = ft_arg_byte(no_sep_split, op_index, has_label + 1);
+		if (args_byte != 0)
 		{
 			ft_freegetcmd(no_sep_split, sepline);
 			return (args_byte);
@@ -84,7 +85,7 @@ void		ft_addarguments(t_comline *current_command)
 	free(g_arg);
 }
 
-t_comline	*ft_addnewcomline()
+t_comline	*ft_addnewcomline(void)
 {
 	t_comline *new;
 

@@ -14,9 +14,9 @@
 
 void	ft_addcmdline(char **split, char *line)
 {
-	int         cmd_op_index;
-	t_comline   *current_command;
-	int         cmd_byte;
+	int			cmd_op_index;
+	t_comline	*current_command;
+	int			cmd_byte;
 
 	cmd_op_index = ft_command_index(split[g_haslabel]);
 	g_arg = ft_newargarray(op_tab[cmd_op_index].n_of_args);
@@ -29,10 +29,10 @@ void	ft_addcmdline(char **split, char *line)
 	ft_addarguments(current_command);
 }
 
-char   *ft_addcharafter(char *line, int i, char ch)
+char	*ft_addcharafter(char *line, int i, char ch)
 {
-	char            *new_line;
-	unsigned int    line_len;
+	char			*new_line;
+	unsigned int	line_len;
 
 	line_len = ft_strlen(line);
 	new_line = ft_strnew(line_len + 1);
@@ -42,33 +42,33 @@ char   *ft_addcharafter(char *line, int i, char ch)
 	return (new_line);
 }
 
-char    *ft_spacebeforedirfree(char *line)
+char	*ft_spacebeforedirfree(char *line)
 {
-	int     i;
-	char    *tmp;
+	int		i;
+	char	*tmp;
 
 	i = -1;
 	while (line[++i] != '\0')
 	{
 		if (line[i] == DIRECT_CHAR && line[i + 1] != '\0')
 		{
-				if (i > 0 && (!ft_strchr(" \t", line[i - 1])))
-				{
-					tmp = ft_addcharafter(line, i - 1, ' ');
-					free(line);
-					return (tmp);
-				}
+			if (i > 0 && (!ft_strchr(" \t", line[i - 1])))
+			{
+				tmp = ft_addcharafter(line, i - 1, ' ');
+				free(line);
+				return (tmp);
+			}
 			return (line);
 		}
 	}
 	return (line);
 }
 
-char    *ft_spaceafterlabelfree(char *line)
+char	*ft_spaceafterlabelfree(char *line)
 {
-	int             start;
-	int             i;
-	char            *chunk;
+	int				start;
+	int				i;
+	char			*chunk;
 
 	i = -1;
 	start = 0;
@@ -94,9 +94,9 @@ char    *ft_spaceafterlabelfree(char *line)
 
 void	ft_addcommands(char *line)
 {
-	char    **split;
-	t_label *curr_label;
-	char    *work_line;
+	char	**split;
+	t_label	*curr_label;
+	char	*work_line;
 
 	work_line = ft_spaceafterlabelfree(line);
 	work_line = ft_spacebeforedirfree(work_line);

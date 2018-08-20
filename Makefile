@@ -18,7 +18,7 @@ ASM_CFILES = 	asm.c \
 				ft_divide_in_octets.c\
 				ft_exitfunctions.c\
 				ft_file.c \
-				ft_findargtype.c\
+				ft_find_argtype.c\
 				ft_labellist.c \
 				ft_labels.c \
 				ft_new.c\
@@ -32,6 +32,7 @@ ASM_CFILES = 	asm.c \
 				get_next_line.c \
 				utils/ft_chararrlen.c \
 				utils/ft_exit.c \
+				utils/ft_freechararr.c\
 				utils/ft_hassuffix.c \
 				utils/ft_hexlen.c \
 				utils/ft_intarrlen.c \

@@ -34,7 +34,7 @@ void	ft_writewithsize(int int_value, int size)
 	}
 }
 
-void    ft_printargument(t_arg *argument, int label_size)
+void	ft_printargument(t_arg *argument, int label_size)
 {
 	int size;
 
@@ -44,11 +44,11 @@ void    ft_printargument(t_arg *argument, int label_size)
 	else if (argument->arg_type == T_IND)
 		size = 2;
 	else if (argument->arg_type == T_DIR)
-		size = (label_size  == 0 ? 4 : 2);
+		size = (label_size == 0 ? 4 : 2);
 	ft_writewithsize(argument->int_value, size);
 }
 
-void    ft_printcommand(t_comline *cmd_line)
+void	ft_printcommand(t_comline *cmd_line)
 {
 	int i;
 
@@ -63,7 +63,7 @@ void    ft_printcommand(t_comline *cmd_line)
 	}
 }
 
-void    ft_printlabel(t_label *label)
+void	ft_printlabel(t_label *label)
 {
 	t_comline *tmp;
 
@@ -75,7 +75,7 @@ void    ft_printlabel(t_label *label)
 	}
 }
 
-void    ft_printcode(void)
+void	ft_printcode(void)
 {
 	t_label *tmp;
 

@@ -12,11 +12,11 @@
 
 #include "asm.h"
 
-int    ft_findfilesize(void)
+int		ft_findfilesize(void)
 {
-	t_label *lbl_tmp;
-	t_comline *cmd_tmp;
-	int res;
+	t_label		*lbl_tmp;
+	t_comline	*cmd_tmp;
+	int			res;
 
 	res = 0;
 	lbl_tmp = g_file.head;
@@ -64,13 +64,12 @@ void	ft_setup(void)
 	g_curr_label = NULL;
 	g_line_counter = 0;
 	g_output_name = NULL;
-
 }
 
 int		main(int argc, char **argv)
 {
-	pid_t newp;
-	int i;
+	pid_t	newp;
+	int		i;
 
 	if (argc == 1)
 		ft_exit_number(USAGE, NULL);

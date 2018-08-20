@@ -48,15 +48,16 @@
 #define NOT_LAB_CHARS		"OMG label doesn't consist of label chars. Noooooo\n"
 #define LABEL_EXISTS		"Label '%s' already exists!\n"
 #define LABEL_NOT_FOUND		"Label '%s' doesn't exist!\n"
-#define INVALID_FIRST_ARG	"First argument is not a label and not a command! %s\n"
-#define WRONG_N_OF_ARGS		"Something's wrong with a number of args in your line here! %s\n"
+#define INVALID_FIRST_ARG	"First argument is not a label and not a command! '%s'\n"
+#define WRONG_N_OF_ARGS		"Something's wrong with a number of args in your line here! '%s'\n"
 #define N_OF_SEP_ERROR		"Wrong n of separators in '%s'! Boo!\n"
 #define WRONG_ARG_TYPES		"Wrong argument types! Booooo!\n"
-#define LONG_NAME_ERR		"Champion name:%s too long (See max length)\n"
+#define LONG_NAME_ERR		"Champion name: '%s' too long (See max length)\n"
 #define BOT_NAME_ERR		"Some syntax error in your bot name. You've put something after quotes!\n"
 #define NO_NAME				"No name string\n"
 #define NAME_QUOTE_ERR		"Some error when name is not in quotes or whatever\n"
 #define NO_NAME_TAG			"No name tag\n"
+#define C_S 				COMMENT_CMD_STRING	
 
 typedef struct			    s_declare
 {
@@ -202,5 +203,13 @@ void						ft_freechararr(char **arr);
 int							ft_countargsize(t_label *label, t_comline *command);
 void						ft_to_assembler(char *filename);
 int							ft_open(char *filename);
+t_arg						*ft_addgarg(char *arg_line, int type);
+int							ft_ispmnumline(char *line);
+int							ft_overflow(char *arg_line);
+t_arg						**ft_newargarray(int len);
+void						ft_right_seps(char *line, t_op command);
+t_comline					*ft_addnewcomline();
+char						*ft_cmdline(char *line, char *name);
+void						ft_addarguments(t_comline *current_command);
 
 #endif

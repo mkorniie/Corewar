@@ -22,13 +22,11 @@ void	ft_setup(void)
 	g_file.name->max_length = PROG_NAME_LENGTH;
 	g_file.name->line = ft_strnew(1);
 	g_file.name->line_end = -1;
-	g_file.name->length = 0;
 	g_file.comment->name = ft_strdup("comment");
 	g_file.comment->cmd_string = COMMENT_CMD_STRING;
 	g_file.comment->max_length = COMMENT_LENGTH;
 	g_file.comment->line = ft_strnew(1);
 	g_file.comment->line_end = -1;
-	g_file.comment->length = 0;
 	g_file.file_size = -1;
 	g_new_fd = -1;
 	g_file.head = NULL;

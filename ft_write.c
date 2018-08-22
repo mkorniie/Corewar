@@ -75,7 +75,9 @@ void	ft_print_size(void)
 
 void	ft_write(void)
 {
-	ft_open_file();
+	g_new_fd = open(g_output_name, O_CREAT | O_WRONLY | O_TRUNC, 0644);
+	if (g_new_fd == -1)
+		ft_exit_number(FILE_CREAT_ERR, NULL);
 	ft_divide_in_octets(COREWAR_EXEC_MAGIC);
 	ft_print_botname();
 	ft_print_null();

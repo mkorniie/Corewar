@@ -20,12 +20,9 @@ void	ft_writewithsize(int int_value, int size)
 
 	n_of_octs = ft_n_of_octets(int_value);
 	len = size - n_of_octs;
-	i = 0;
-	while (i < len)
-	{
+	i = -1;
+	while (++i < len)
 		ft_write_to_file(int_value < 0 ? 0xff : 0);
-		i++;
-	}
 	i = n_of_octs;
 	while (--i >= 0)
 	{
@@ -55,34 +52,25 @@ void	ft_printcommand(t_comline *cmd_line)
 	ft_write_to_file(cmd_line->command->number);
 	if ((cmd_line->command->codage_octal) == 1)
 		ft_write_to_file(cmd_line->args_byte);
-	i = 0;
-	while (i < (cmd_line->command->n_of_args))
-	{
+	i = -1;
+	while (++i < (cmd_line->command->n_of_args))
 		ft_printargument(cmd_line->args[i], cmd_line->command->label_size);
-		i++;
-	}
-}
-
-void	ft_printlabel(t_label *label)
-{
-	t_comline *tmp;
-
-	tmp = label->commands_head;
-	while (tmp)
-	{
-		ft_printcommand(tmp);
-		tmp = tmp->next;
-	}
 }
 
 void	ft_printcode(void)
 {
-	t_label *tmp;
+	t_label		*l_tmp;
+	t_comline	*c_tmp;
 
-	tmp = g_file.head;
-	while (tmp)
+	l_tmp = g_file.head;
+	while (l_tmp)
 	{
-		ft_printlabel(tmp);
-		tmp = tmp->next;
+		c_tmp = l_tmp->commands_head;
+		while (c_tmp)
+		{
+			ft_printcommand(c_tmp);
+			c_tmp = c_tmp->next;
+		}
+		l_tmp = l_tmp->next;
 	}
 }

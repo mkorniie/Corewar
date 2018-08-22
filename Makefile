@@ -35,7 +35,6 @@ ASM_CFILES = 	asm.c \
 				utils/ft_freechararr.c\
 				utils/ft_hassuffix.c \
 				utils/ft_hexlen.c \
-				utils/ft_intarrlen.c \
 				utils/ft_isnumline.c\
 				utils/ft_latoi.c\
 				utils/ft_line_consists_of.c\

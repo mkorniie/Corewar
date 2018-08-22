@@ -12,13 +12,6 @@
 
 #include "../asm.h"
 
-void		ft_lengthcheck(t_declare *glob_struct)
-{
-	glob_struct->length = ft_strlen(glob_struct->line);
-	if (glob_struct->length > glob_struct->max_length)
-		ft_exit_number_line(LONG_NAME_ERR, glob_struct->name);
-}
-
 int			ft_command_index(char *chunk)
 {
 	int i;

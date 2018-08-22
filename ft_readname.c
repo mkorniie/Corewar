@@ -107,5 +107,6 @@ void	ft_addsequence(char *read_line, t_declare *glob_struct)
 		glob_struct->line = ft_strjoinfreefirst(glob_struct->line, res);
 		free(res);
 	}
-	ft_lengthcheck(glob_struct);
+	if (ft_strlen(glob_struct->line) > glob_struct->max_length)
+		ft_exit_number_line(LONG_NAME_ERR, glob_struct->name);
 }

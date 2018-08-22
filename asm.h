@@ -60,10 +60,9 @@ typedef struct					s_declare
 {
 	char						*name;
 	char						*cmd_string;
-	int							max_length;
+	size_t						max_length;
 	char						*line;
 	int							line_end;
-	int							length;
 }								t_declare;
 
 typedef struct					s_arg
@@ -149,7 +148,6 @@ int								g_haslabel;
 int								g_line_counter;
 char							*g_output_name;
 
-void							ft_open_file(void);
 void							ft_write_to_file(int line);
 int								ft_mod(int number);
 int								ft_hexlen(int hex_number);
@@ -157,13 +155,10 @@ void							ft_exit(void);
 char							**ft_sepsplit(char const *s, char *c_line);
 void							ft_write(void);
 int								ft_chararrlen(char **arr);
-int								ft_intarrlen(int *arr);
 void							ft_text_to_hex(char *text);
 char							*ft_strjoinfreefirst(char *to_free,
 	char *to_add);
 int								ft_hassuffix(char *line, char *suffix);
-void							ft_lengthcheck(t_declare *glob_struct);
-char							*ft_addnameline(char *line);
 void							ft_checkfirstline(char *line,
 	t_declare *glob_struct);
 char							*ft_quotetrim(char *raw_name,
@@ -173,7 +168,6 @@ void							ft_addsequence(char *read_line,
 void							ft_addcommands(char *line);
 void							ft_addtotail(t_label *new);
 t_label							*ft_addlabel(char *name);
-void							ft_printchararr(char **arr);
 int								ft_isnumline(char *line);
 int								ft_lineisint(char *line);
 int								ft_command_index(char *chunk);
@@ -187,8 +181,6 @@ int								ft_isdir(char *arg_line);
 int								ft_isind(char *arg_line);
 char							*ft_new_line_with_separators(void);
 void							ft_addtocomltail(t_comline *new);
-char							*ft_strjoinfreefirstln(char *to_free,
-	char *line);
 int								ft_arg_byte(char **no_sep_split,
 	int op_index, int start);
 int								ft_get_cmd_byte(int op_index, char *line,
@@ -201,7 +193,6 @@ int								ft_count_label(t_label *start_label,
 int								ft_countargsize(t_label *label,
 	t_comline *command);
 t_label							*ft_find_label(char *label_name);
-long							ft_latoi(const char *str);
 void							ft_exit_number_line(const char *format,
 	char *option);
 void							ft_exit_number(const char *format,

@@ -68,14 +68,17 @@ char	*ft_deletecomment(char *line)
 
 int		ft_get_next_line(int fd, char **line)
 {
-	int res;
+	int		res;
+	char	*tmp;
 
-	free(*line);
+	if (g_line_counter > 0)
+		free(*line);
 	res = get_next_line(fd, line);
 	if (res > 0)
 	{
 		g_line_counter++;
-		g_file.content = ft_strjoinfreefirstln(g_file.content, *line);
+		tmp = ft_strjoinfreefirst(g_file.content, *line);
+		g_file.content = ft_strjoinfreefirst(tmp, "\n");
 		*line = ft_deletecomment(*line);
 	}
 	return (res);
@@ -89,7 +92,6 @@ void	ft_to_assembler(char *filename)
 
 	status = -1;
 	fd = ft_open(filename);
-	line = ft_strdup("start");
 	while (ft_get_next_line(fd, &line) > 0)
 	{
 		if (ft_strstr(line, NAME_CMD_STRING) || g_file.name->line_end == 0)

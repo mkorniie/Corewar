@@ -17,6 +17,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <stdio.h>
+# include <dirent.h>
 
 # include "op.h"
 
@@ -219,5 +220,7 @@ void							ft_right_seps(char *line, t_op command);
 t_comline						*ft_addnewcomline();
 char							*ft_cmdline(char *line, char *name);
 void							ft_addarguments(t_comline *current_command);
+int								ft_findfilesize(void);
+char							*ft_outputname(void);
 
 #endif

@@ -12,6 +12,27 @@
 
 #include "asm.h"
 
+int		ft_findfilesize(void)
+{
+	t_label		*lbl_tmp;
+	t_comline	*cmd_tmp;
+	int			res;
+
+	res = 0;
+	lbl_tmp = g_file.head;
+	while (lbl_tmp)
+	{
+		cmd_tmp = lbl_tmp->commands_head;
+		while (cmd_tmp)
+		{
+			res += NAME_SIZE + ft_countargsize(lbl_tmp, cmd_tmp);
+			cmd_tmp = cmd_tmp->next;
+		}
+		lbl_tmp = lbl_tmp->next;
+	}
+	return (res);
+}
+
 t_label	*ft_find_label(char *label_name)
 {
 	t_label *tmp;

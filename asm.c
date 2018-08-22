@@ -12,34 +12,6 @@
 
 #include "asm.h"
 
-int		ft_findfilesize(void)
-{
-	t_label		*lbl_tmp;
-	t_comline	*cmd_tmp;
-	int			res;
-
-	res = 0;
-	lbl_tmp = g_file.head;
-	while (lbl_tmp)
-	{
-		cmd_tmp = lbl_tmp->commands_head;
-		while (cmd_tmp)
-		{
-			res += NAME_SIZE + ft_countargsize(lbl_tmp, cmd_tmp);
-			cmd_tmp = cmd_tmp->next;
-		}
-		lbl_tmp = lbl_tmp->next;
-	}
-	return (res);
-}
-
-char	*ft_validname(char *name)
-{
-	if (!ft_hassuffix(name, ".s"))
-		ft_exit_number(BAD_SOURCE_FILE_EXT, name);
-	return (name);
-}
-
 void	ft_setup(void)
 {
 	g_file.content = ft_strnew(1);
@@ -66,29 +38,76 @@ void	ft_setup(void)
 	g_output_name = NULL;
 }
 
-int		main(int argc, char **argv)
+void	ft_forkasm(char *filename)
 {
 	pid_t	newp;
-	int		i;
+
+	newp = fork();
+	if (newp < 0)
+		ft_exit();
+	if (newp == 0)
+	{
+		ft_setup();
+		if (!ft_hassuffix(filename, ".s"))
+			ft_exit_number(BAD_SOURCE_FILE_EXT, filename);
+		g_file.file_name = filename;
+		g_output_name = ft_outputname();
+		ft_to_assembler(filename);
+		g_file.file_size = ft_findfilesize();
+		ft_write();
+		ft_printf_fd(1, "Writing output program to %s\n", g_output_name);
+		ft_exit();
+	}
+}
+
+char	*ft_findfilename(char *path, char *filename)
+{
+	char	*tmp;
+
+	if (ft_hassuffix(path, "/"))
+		return (ft_strjoin(path, filename));
+	else
+	{
+		tmp = ft_strjoin(path, "/");
+		return (ft_strjoinfree(tmp, filename, 1));
+	}
+}
+
+int		ft_opendir(char *name, int is_recurs)
+{
+	DIR				*d;
+	struct dirent	*dir;
+	char			*full_path;
+
+	if ((d = opendir(name)) == NULL)
+		return (0);
+	while ((dir = readdir(d)) != NULL)
+	{
+		full_path = ft_findfilename(name, dir->d_name);
+		if (dir->d_name[0] != '.')
+		{
+			ft_forkasm(full_path);
+			if (is_recurs)
+				ft_opendir(full_path, is_recurs);
+		}
+	}
+	closedir(d);
+	return (1);
+}
+
+int		main(int argc, char **argv)
+{
+	int				i;
+	int				is_recurs;
 
 	if (argc == 1)
 		ft_exit_number(USAGE, NULL);
-	i = 0;
+	is_recurs = (argc > 1 && ft_strequ("-R", argv[1])) ? 1 : 0;
+	i = is_recurs;
 	while (++i < argc)
 	{
-		newp = fork();
-		if (newp < 0)
-			ft_exit();
-		if (newp == 0)
-		{
-			ft_setup();
-			g_file.file_name = ft_validname(argv[i]);
-			ft_to_assembler(argv[i]);
-			g_file.file_size = ft_findfilesize();
-			ft_write();
-			ft_printf_fd(1, "Writing output program to %s\n", g_output_name);
-			ft_exit();
-		}
+		if (!ft_opendir(argv[i], is_recurs))
+			ft_forkasm(argv[i]);
 	}
 	return (0);
 }

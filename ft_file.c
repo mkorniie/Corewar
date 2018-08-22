@@ -34,10 +34,7 @@ char	*ft_outputname(void)
 	new_name[name_len + 1] = 'r';
 	new_name[name_len + 2] = '\0';
 	ft_strncpy(new_name, g_file.file_name, name_len - 1);
-	//ATTENTION! NAME CHANGED!
-	char *to_return = ft_strjoin(new_name, "_my"); //delete
-	free(new_name); //delete
-	return (to_return); //change
+	return (new_name);
 }
 
 char	*ft_strjoinfreefirstln(char *to_free, char *line)
@@ -51,11 +48,7 @@ char	*ft_strjoinfreefirstln(char *to_free, char *line)
 
 void	ft_open_file(void)
 {
-	char *new_name;
-
-	new_name = ft_outputname();
-	g_output_name = new_name;
-	g_new_fd = open(new_name, O_CREAT | O_WRONLY | O_TRUNC, 0644);
+	g_new_fd = open(g_output_name, O_CREAT | O_WRONLY | O_TRUNC, 0644);
 	if (g_new_fd == -1)
 		ft_exit_number(FILE_CREAT_ERR, NULL);
 }

@@ -26,6 +26,7 @@ void	ft_exit_number(const char *format, char *option)
 
 void	ft_exit_number_line(const char *format, char *option)
 {
+	ft_printf_fd(2, "FILE %s: ", g_output_name);
 	ft_printf_fd(2, "LINE %d: ", g_line_counter);
 	ft_exit_number(format, option);
 }

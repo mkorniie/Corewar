@@ -1,4 +1,5 @@
 NAME = libftprintf.a
+LIBFT_PATH = ../libft/
 GCC_FLAGS = -Wall -Wextra -Werror
 
 EXTRACT_FROM_VALIST = extract_func_0.c extract_func_1.c extract_func_2.c extract_func_3.c extract_func_4.c extract_func_5.c extract_func_6.c extract_func_7.c extract_func_8.c extract_func_9.c ft_addustring.c
@@ -12,30 +13,33 @@ CONVERT = ft_convert.c $(FLAG_VALIDATION) $(DETERMINE_THE_TYPE_OF_MODIFIER) $(EX
 
 PRINTF_CFILES = ft_printf_fd.c ft_parce.c $(CONVERT)
 LIBFT_CFILES = ft_numsize.c ft_memccpy.c ft_strsub.c ft_strmapi.c ft_strcpy.c ft_memalloc.c ft_putendl.c ft_putendl_fd.c ft_strdel.c ft_strncat.c ft_strtrim.c ft_atoi.c ft_memchr.c ft_putnbr.c ft_strdup.c ft_strncmp.c ft_tolower.c ft_bzero.c ft_memcmp.c ft_putnbr_fd.c ft_strequ.c ft_strncpy.c ft_toupper.c ft_isalnum.c ft_memcpy.c ft_putstr.c ft_striter.c ft_strnequ.c ft_isalpha.c ft_memdel.c ft_putstr_fd.c ft_striteri.c ft_strnew.c ft_isascii.c ft_memmove.c ft_strcat.c ft_strjoin.c ft_strnstr.c ft_isdigit.c ft_memset.c ft_strchr.c ft_strlcat.c ft_strrchr.c ft_isprint.c ft_putchar.c ft_strclr.c ft_strlen.c ft_strsplit.c ft_itoa.c ft_putchar_fd.c ft_strcmp.c ft_strmap.c ft_strstr.c ft_lstnew.c ft_lstdelone.c ft_lstdel.c ft_lstadd.c ft_lstiter.c ft_lstmap.c ft_strndup.c ft_abs.c ft_pow.c ft_printlst.c
-LIBFT_CFILES_PATH = $(addprefix ../libft/, $(LIBFT_CFILES))
-OFILES = $(PRINTF_CFILES:.c=.o) $(LIBFT_CFILES_PATH:.c=.o)
-IFLAGS = -I libft/
+LIBFT_CFILES_PATH = $(addprefix $(LIBFT_PATH), $(LIBFT_CFILES))
+LIBFT_OFILES_PATH = $(patsubst %.c,%.o, $(LIBFT_CFILES_PATH))
+PRINTF_OFILES = $(PRINTF_CFILES:.c=.o)
 
 all: $(NAME)
-$(NAME): $(OFILES)
-	ar rc $(NAME) $(OFILES)
-	ranlib $(NAME)
+$(NAME): $(PRINTF_OFILES)
+	@make -C $(LIBFT_PATH)
+	@ar rc $(NAME) $(PRINTF_OFILES) $(LIBFT_OFILES_PATH)
+	@ranlib $(NAME)
+	@echo "ft_printf_fd built succesfully <3"
 clean:
-	rm -f $(OFILES)
+	@rm -f $(PRINTF_OFILES)
+	@make -C $(LIBFT_PATH) clean
+	@echo "ft_printf_fd: clean succesful <3"
 fclean: clean
-	rm -f $(NAME)
-	rm -f libft/libft.a
+	@rm -f $(NAME)
+	@make -C $(LIBFT_PATH) fclean
+	@echo "ft_printf_fd: fclean succesful <3"
 re: fclean all
 do: all
-	gcc main_2.c $(NAME)
+	@gcc main_2.c $(NAME)
 	./a.out
 doc: all
-	gcc main_2.c $(NAME)
+	@gcc main_2.c $(NAME)
 	./a.out | cat -e
 
-$(LIB_OFILES): %.o: %.c
-	gcc -c $(GCC_FLAGS) $(IFLAGS) $< -o $@
-$(PRINTF_OFILES): %.o: %.c
-	gcc -c $(GCC_FLAGS) $< -o $@
+%.o: %.c
+	@gcc -c $(GCC_FLAGS) $< -o $@
 
 .PHONY: all clean fclean re do

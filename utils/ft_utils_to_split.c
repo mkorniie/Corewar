@@ -24,8 +24,8 @@ int			ft_command_index(char *chunk)
 	int i;
 
 	i = -1;
-	while (op_tab[++i].name != NULL)
-		if (ft_strequ(op_tab[i].name, chunk))
+	while (g_op_tab[++i].name != NULL)
+		if (ft_strequ(g_op_tab[i].name, chunk))
 			return (i);
 	return (-1);
 }

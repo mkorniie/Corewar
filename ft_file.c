@@ -24,8 +24,8 @@ int		ft_open(char *filename)
 
 char	*ft_outputname(void)
 {
-	unsigned int name_len;
-	char *new_name;
+	unsigned int	name_len;
+	char			*new_name;
 
 	name_len = ft_strlen(g_file.file_name);
 	new_name = (char*)malloc(sizeof(char) * (name_len + 2 + 1));
@@ -34,19 +34,19 @@ char	*ft_outputname(void)
 	new_name[name_len + 1] = 'r';
 	new_name[name_len + 2] = '\0';
 	ft_strncpy(new_name, g_file.file_name, name_len - 1);
-    //ATTENTION! NAME CHANGED!
+	//ATTENTION! NAME CHANGED!
 	char *to_return = ft_strjoin(new_name, "_my"); //delete
 	free(new_name); //delete
 	return (to_return); //change
 }
 
-char    *ft_strjoinfreefirstln(char* to_free, char *line)
+char	*ft_strjoinfreefirstln(char *to_free, char *line)
 {
-    char *res;
+	char *res;
 
-    res = ft_strjoinfreefirst(to_free, line);
-    res = ft_strjoinfreefirst(res, "\n");
-    return (res);
+	res = ft_strjoinfreefirst(to_free, line);
+	res = ft_strjoinfreefirst(res, "\n");
+	return (res);
 }
 
 void	ft_open_file(void)
@@ -55,9 +55,9 @@ void	ft_open_file(void)
 
 	new_name = ft_outputname();
 	g_output_name = new_name;
-	g_new_fd = open(new_name ,O_CREAT | O_WRONLY | O_TRUNC, 0644);
+	g_new_fd = open(new_name, O_CREAT | O_WRONLY | O_TRUNC, 0644);
 	if (g_new_fd == -1)
-        ft_exit_number(FILE_CREAT_ERR, NULL);
+		ft_exit_number(FILE_CREAT_ERR, NULL);
 }
 
 void	ft_write_to_file(int line)

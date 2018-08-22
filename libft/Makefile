@@ -17,14 +17,18 @@ HEADER = libft.h
 
 all: $(NAME)
 $(NAME): $(OFILES)
-	ar rc $(NAME) $(OFILES)
-	ranlib $(NAME)
+	@ar rc $(NAME) $(OFILES)
+	@ranlib $(NAME)
+	@echo "Libft built succesfully <3"
 clean:
-	rm -f $(OFILES)
+	@rm -f $(OFILES)
+	@echo "Libft: clean succesful <3"
 fclean: clean
-	rm -f $(NAME)
+	@rm -f $(NAME)
+	@echo "Libft: fclean succesful <3"
 re: fclean all
 cm: all clean
+	
 %.o: %.c
-	gcc $(FLAGS) -c -o $@ $<
+	@gcc $(FLAGS) -c -o $@ $<
 .PHONY: all clean fclean re cm

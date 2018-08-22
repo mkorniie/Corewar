@@ -12,9 +12,9 @@
 
 #include "asm.h"
 
-t_arg   *ft_newtarg(void)
+t_arg	*ft_newtarg(void)
 {
-	t_arg   *res;
+	t_arg	*res;
 
 	res = (t_arg*)malloc(sizeof(t_arg));
 	res->line = NULL;
@@ -24,10 +24,10 @@ t_arg   *ft_newtarg(void)
 	return (res);
 }
 
-t_arg **ft_newargarray(int len)
+t_arg	**ft_newargarray(int len)
 {
-	t_arg   **res;
-	int     i;
+	t_arg	**res;
+	int		i;
 
 	res = (t_arg**)malloc(sizeof(t_arg*) * (len + 1));
 	res[len] = NULL;

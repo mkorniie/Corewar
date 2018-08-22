@@ -19,13 +19,13 @@ void	ft_addcmdline(char **split, char *line)
 	int			cmd_byte;
 
 	cmd_op_index = ft_command_index(split[g_haslabel]);
-	g_arg = ft_newargarray(op_tab[cmd_op_index].n_of_args);
+	g_arg = ft_newargarray(g_op_tab[cmd_op_index].n_of_args);
 	cmd_byte = ft_get_cmd_byte(cmd_op_index, line, g_haslabel);
-	ft_right_seps(line, op_tab[cmd_op_index]);
+	ft_right_seps(line, g_op_tab[cmd_op_index]);
 	current_command = ft_addnewcomline();
 	current_command->line = ft_cmdline(line, split[g_haslabel]);
 	current_command->args_byte = cmd_byte;
-	current_command->command = &(op_tab[cmd_op_index]);
+	current_command->command = &(g_op_tab[cmd_op_index]);
 	ft_addarguments(current_command);
 }
 

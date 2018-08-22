@@ -26,7 +26,7 @@ t_label	*ft_find_label(char *label_name)
 	return (NULL);
 }
 
-int		ft_find_label_dst(t_label *st_label, t_comline *cmd, \
+int		ft_find_label_dst(t_label *st_lbl, t_comline *cmd,
 	char *l_name, t_comline *target)
 {
 	int			res;
@@ -37,11 +37,11 @@ int		ft_find_label_dst(t_label *st_label, t_comline *cmd, \
 	res = 0;
 	if ((target_label = ft_find_label(l_name)) == NULL)
 		ft_exit_number(LABEL_NOT_FOUND, l_name);
-	lbl_tmp = st_label;
+	lbl_tmp = st_lbl;
 	target = (target == NULL ? target_label->commands_head : target);
 	while (lbl_tmp)
 	{
-		c_tmp = ((lbl_tmp == st_label && cmd != NULL) ? cmd : lbl_tmp->commands_head);
+		c_tmp = (lbl_tmp == st_lbl && cmd != 0) ? cmd : lbl_tmp->commands_head;
 		if ((lbl_tmp == target_label) && (lbl_tmp->commands_head == NULL))
 			return (res);
 		while (c_tmp)
@@ -53,8 +53,7 @@ int		ft_find_label_dst(t_label *st_label, t_comline *cmd, \
 		}
 		lbl_tmp = lbl_tmp->next;
 	}
-	res = (-1) * (ft_find_label_dst(target_label, NULL, st_label->label_name, cmd));
-	return (res);
+	return (-1 * ft_find_label_dst(target_label, 0, st_lbl->label_name, cmd));
 }
 
 int		ft_count_label(t_label *st_label, t_comline *cmd, int index)

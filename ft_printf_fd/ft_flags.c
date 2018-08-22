@@ -78,7 +78,6 @@ char	*ft_space(char *res, int wp[3], char x)
 
 char	*ft_plus(char *res, int wp[3], char x)
 {
-	char	*temp;
 	int		adj;
 
 	adj = (wp[2] < 0 ? wp[2] * (-1) : 0);

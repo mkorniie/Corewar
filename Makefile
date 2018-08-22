@@ -50,20 +50,20 @@ ASM_OFILES = $(ASM_CFILES:.c=.o)
 
 all: $(NAME)
 $(NAME): $(ASM_OFILES)
-	make -C libft/
-	make -C ft_printf_fd/
-	gcc $(FLAGS) -o $(NAME) $(ASM_OFILES) -L. -lft ft_printf_fd/libftprintf.a
+	@make -C ft_printf_fd/
+	@gcc $(FLAGS) -o $(NAME) $(ASM_OFILES) -L. -lft ft_printf_fd/libftprintf.a
+	@echo "Asm built succesfully <3"
 clean:
-	rm -f $(ASM_OFILES) 
-	make -C libft/ clean
-	make -C ft_printf_fd/ clean
+	@rm -f $(ASM_OFILES) 
+	@make -C ft_printf_fd/ clean
+	@echo "Asm: cleaned succesfully <3"
 fclean: clean
-	rm -f $(NAME)
-	make -C libft/ fclean
-	make -C ft_printf_fd/ fclean
+	@rm -f $(NAME)
+	@make -C ft_printf_fd/ fclean
+	@echo "Asm: fclean succesful <3"
 re: fclean all
 
 %.o: %.c
-	gcc $(FLAGS) -c -o $@ $<
+	@gcc $(FLAGS) -c -o $@ $<
 
 .PHONY: all clean fclean re do doc

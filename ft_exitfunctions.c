@@ -14,9 +14,8 @@
 
 void	ft_exit_number(const char *format, char *option)
 {
-	if (option != NULL) {
+	if (option != NULL)
 		ft_printf_fd(2, format, option);
-	}
 	else
 	{
 		ft_printf_fd(2, format);

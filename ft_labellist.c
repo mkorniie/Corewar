@@ -21,7 +21,7 @@ t_label	*ft_newlabel(void)
 	res->label_name = NULL;
 	res->commands_head = NULL;
 	res->next = NULL;
-    return (res);
+	return (res);
 }
 
 void	ft_addtotail(t_label *new)
@@ -39,7 +39,7 @@ void	ft_addtotail(t_label *new)
 	}
 }
 
-int     ft_uniquelabel(char *label)
+int		ft_uniquelabel(char *label)
 {
 	if (ft_find_label(label) == NULL)
 		return (1);
@@ -47,10 +47,10 @@ int     ft_uniquelabel(char *label)
 		return (0);
 }
 
-t_label * ft_addlabel(char *name)
+t_label	*ft_addlabel(char *name)
 {
-	t_label *new;
-	int len;
+	t_label	*new;
+	int		len;
 
 	len = ft_strlen(name);
 	if (name != NULL)
@@ -58,7 +58,7 @@ t_label * ft_addlabel(char *name)
 	if (!ft_uniquelabel(name))
 		ft_exit_number_line(LABEL_EXISTS, name);
 	new = ft_newlabel();
-	new->has_label = (name == NULL? 0 : 1);
+	new->has_label = (name == NULL ? 0 : 1);
 	new->label_name = name;
 	ft_addtotail(new);
 	return (new);

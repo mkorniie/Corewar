@@ -26,10 +26,10 @@ int			ft_arg_byte(char **no_sep_split, int op_index, int start)
 
 	i = -1;
 	arg_byte = 0;
-	while ((++i) < op_tab[op_index].n_of_args)
+	while ((++i) < g_op_tab[op_index].n_of_args)
 	{
 		arg_type = ft_find_argtype(no_sep_split[i + start]);
-		if ((arg_type & op_tab[op_index].args[i]) != arg_type)
+		if ((arg_type & g_op_tab[op_index].args[i]) != arg_type)
 			ft_exit_number_line(ARG_TYPE_ERR, no_sep_split[i + start]);
 		else
 		{
@@ -53,7 +53,7 @@ int			ft_get_cmd_byte(int op_index, char *line, int has_label)
 	no_sep_split = ft_sepsplit(line, sepline);
 	arrlen = ft_chararrlen(no_sep_split);
 	arrlen -= (has_label == 1 ? 2 : 1);
-	if (arrlen == op_tab[op_index].n_of_args)
+	if (arrlen == g_op_tab[op_index].n_of_args)
 	{
 		args_byte = ft_arg_byte(no_sep_split, op_index, has_label + 1);
 		if (args_byte != 0)
